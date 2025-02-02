@@ -1,0 +1,32 @@
+\section{HTML}
+
+
+
+HTML je značkovací jazyk a slouží pouze k definování struktury stránky. Skládá se z párových (\texttt{<span>}potomek\texttt{</span>}) a nepárových (\texttt{<img/>}) značek, které poznáte podle toho, zda v sobě obsahují potomky.
+
+Zde je seznam několika základních elementů:
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|>{\centering\arraybackslash}m{4cm}|>{\centering\arraybackslash}m{5cm}|}
+\hline
+\textbf{Element} & \textbf{Popis} \\ \hline
+\texttt{span} & Jednoduchý text \\ \hline
+\texttt{div} & Prázdný element \\ \hline
+\texttt{p} & Odstavec \\ \hline
+\texttt{button} & Tlačítko \\ \hline
+\texttt{img} & Obrázek \\ \hline
+\texttt{br} & Nový řádek \\ \hline
+\texttt{h1, h2, h3, h4} & Nadpisy \\ \hline
+\texttt{ol, ul} & Číslovaný/nečíslovaný seznam \\ \hline
+\texttt{a} & Odkaz \\ \hline
+\texttt{table} & Tabulka \\ \hline
+\end{tabular}
+\caption{Seznam základních elementů v HTML.}
+\end{table}
+
+Každý validní HTML dokument by měl mít dvě části. První je hlavička (head), ve které jsou definované věci, které na stránce nejdou vidět. Třeba její název, lokace skriptů a stylů, jazyk, font, nebo metadata. Druhá část je tělo (body). Tady už můžete používat všechny dříve zmíněné elementy a zobrazovat obsah samotné stránky.
+
+Každý prvek má několik atributů, které můžete nastavit. Id je unikátní a class zase reprezentuje skupiny prvků. Ještě se k nim dostanu. Pomocí href můžete nastavit url adresu (užitečné pro odkazy) a eventy jako onclick zase spustí skript, pokud se naplní nějaká podmínka (v tomto případě kliknutí na tlačítko).
+
+Samo o sobě se dnes HTML defacto nepoužívá. Má pouze základní font, bílé pozadí, a spíše než webovou stránku připomíná Word dokument. Je třeba ho nějak vylepšit. A přesně to je úkol stylů.

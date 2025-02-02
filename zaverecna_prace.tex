@@ -1,0 +1,41 @@
+%!TEX option = --shell-escape
+
+\documentclass[12pt,a4paper,oneside,final]{report} 		
+
+\input{data/balicky_nastaveni}    % Nastavení vzhledu. Soubory v adresáři data neměňte, pokud to není nutné!
+
+%-----------------------------------------------------------------------------------------------------------------------------
+%--- Zkratky – Vyplnit potřebné informace v závorkách!!!
+
+\newcommand{\skola}{Vyšší odborná škola a Střední průmyslová \\škola elektrotechnická Olomouc,\\ Božetěchova 3}
+
+\newcommand{\typPrace}{DLOUHODOBÁ MATURITNÍ PRÁCE}      
+\newcommand{\nazevCZ}{Programování stránek pro Worldee.com}                      % Název práce v českém jazyce
+\newcommand{\autor}{Jan Dlabaja}                        % Jméno autora
+\newcommand{\vedouci}{Bc. Martin Meravý}         % Jméno vedoucího práce i s tituly
+%-----------------------------------------------------------------------------------------------------------------------------
+% Neměňte tuto část
+
+\begin{document}
+	\include{data/titulni_stranka}
+        \include{data/zadani}
+	\include{data/prohlaseni}	
+    %--- Obsah
+    \tableofcontents
+    \thispagestyle{empty}
+    
+    %------------------------------------------------------------------------------------------------------------------------------
+    %--- Text dokumentu - každá položka odkazuje na jednu kapitolu nebo oddíl. Upravte názvy kapitol, uberte, přidejte podle potřeby.
+    
+    \include{kap/uvod}
+    \include{kap/1_kap/main}	% vkládání kapitol
+    \include{kap/2_kap/main}	% vkládání kapitol
+    \include{kap/3_kap/main}	% vkládání kapitol
+     % Pokud je nutné přidat kapitolu, vytvořte soubor .tex ve složce kap a poté zde zadejte příkaz \include{cesta k souboru}. Název zvolte jaký chcete, ale v žádném případě v názvech nepoužívejte mezery ani diakritiku!
+    \include{kap/zaver}
+    %------------------------------------------------------------------------------------------------------------------------------ 
+    % % Neměňte tuto část
+         
+    \include{data/seznamy} %, seznam obrázků a tabulek - neměnit
+    \include{kap/prilohy}
+\end{document}

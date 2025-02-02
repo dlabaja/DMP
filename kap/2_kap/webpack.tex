@@ -1,0 +1,9 @@
+\section{Webpack}
+
+Máte hotové nějaké komponenty, dosadili jste si je do stránek a chcete vše publikovat. Protože ale JavaScript není kompilovaný jazyk, každý uživatel teď dostane de facto celý Váš zdrojový kód. Kromě toho, že si ho kdokoliv může přečíst, trvá odesílání kódu déle a některé novější funkce JavaScriptu nemusí daný prohlížeč znát. Z tohoto důvodu se používají bundlery jako je Webpack\cite{Webpack}\cite{WebpackFireship} nebo Vite, a jejich loadery.
+
+Na začátku kompilace si Webpack najde vstupní soubor (většinou index.js) a rekurzivně projde všechny jeho importy\cite{WebpackConcepts}\cite{WebpackFounder}, čímž si poskládá vlastní graf závislostí\cite{WebpackDependency}. Následně aktivuje loadery. Ty mu řeknou, jak pracovat s jednotlivými soubory. Mezi nejpopulárnější patří ts-loader (TypeScript) a Babel (JavaScript). Oba kód převedou na starší verzi EcmaScriptu, díky čemuž je následně spustitelný většinou prohlížečů bez ztráty funkčnosti. Existují ale i moduly na CSS, Sass, obrázky, videa, a vlastně jakýkoliv soubor, na který si vzpomenete. I dříve zmiňované CSS moduly jsou vlastně jen jedním z mnoha Webpack loaderů.
+
+Následně jsou ze souborů odstraněny nepotřebné znaky (mezery, nové řádky, komentáře), nepoužité prvky, a celý se minifikuje. Výsledkem je jeden nebo více balíčků, které se klientovi dle potřeby při průchody webem spouští.
+
+Webpack má bohatý ekosystém nejen loaderů, ale i pluginů. Dají se instalovat skrze konfigurační soubor webpack.config.js, který se exportuje jako objekt a umožňuje definovat i různá nastavení. Jedním z nejpopulárnějších pluginů je Bundle Analyzer, který Vám v uživatelsky přívětivém rozhraní ukáže, z čeho je bundle poskládaný a co na něm zabírá nejvíce místa.

@@ -1,0 +1,11 @@
+\section{I18n a Localazy}
+
+I18n je zkratka slova Internationalization (mezi i a n je 18 písmen)\cite{I18nMeaning}. A přesně to budete potřebovat, pokud plánujete projekt posunout do zahraničí a přidat více než jeden jazyk. I na tohle existují frameworky. A ten nejpopulárnější se jmenuje i18next\cite{I18nextDocs}.
+
+Lokalizace se do něj zapisují jako objekt, ve kterém má každý z jazyků svůj klíč. Klíč má v něm i každé slovo a jeho překlad reprezentuje hodnotu. Jeden klíč zároveň může mít pod sebou celou skupinu překladů, díky čemuž je můžete logicky řadit. Pokud je pak chcete použít v projektu, stačí nastavit aktuální jazyk a zavolat zabudovanou funkci t(), která přijímá jako parametr právě klíč. Pokud leží v nějaké podskupině, oddělují se jednotlivé skupiny tečkami.
+
+I18next toho ale umí mnohem víc, než jen hledat v překladovém slovníku\cite{I18nextVideo}. Dvojitými složenými závorkami můžete do překladů přidat proměnné a ty za chodu měnit. Můžete také určit, jak se přeloží počet, pokud na konec klíče připíšete podtržítko a one (jednotné číslo), two (dva předměty), other (množné číslo), nebo dokonce zero (žádný předmět). Máte dokonce i možnost podle konkrétního jazyka formátovat čísla.
+
+Veškeré překlady se ale pořád dělají někde v projektu. A zatímco programátoři nejsou moc dobří v překládání, většina překladatelů zase asi nebude schopná si naklonovat repozitář, upravovat JSON (nebo i jiný formát) a pak vše nahrát zpět na server (nedej bože u toho řešit git konflikty). Proto existují různá řešení na webu. A jedno z nich, které ve Worldee používáme, je Localazy.
+
+Tento, jak jsem později zjistil, český startup, nám umožňuje vytvořit projekt, do něj nahrát soubory pro přeložení a přidat překladatele. Ti mají práci ulehčenou jak grafickým rozhraním, tak i nástroji, jako například zabudované překladače, podpora plurálů ve všech světových jazycích, slovníky, nebo řešení duplicit\cite{LocalazyPricing}. Zároveň se dá integrovat nejen se všemi známými frontendovými frameworky, ale i s Figmou, Unity enginem, GitHubem, a dokonce Excelem\cite{LocalazyIntegration}.

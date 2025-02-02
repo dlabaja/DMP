@@ -1,0 +1,16 @@
+\subsection{MobX store a validace dat}
+Jak funguje MobX už víte. Asi vás proto nepřekvapí, že svůj vlastní store má každá z již vyjmenovaných stránek. Díky tomu nemusím používat useState() a kazit si tak svá data Reactem.
+
+Store stránek je třída složená z polí obsahujících všechna data, která se budou na stránce používat, jejich náležitých getterů (a většinou i setterů) a konstruktoru. Všechna pole, která se mění, musí být označena dekorátorem @observable a jejich změna musí být obalená buďto v runInAction() funkci nebo @action dekorátoru.
+
+Konstruktor by měl správně jen dosadit základní hodnoty, spustit nějaké interní funkce a zavolat makeObservable(this), čímž aktivuje MobX. Externí data z API by ho mohly zbrzdit nebo vyvolat vyjímku, proto by si je měl vývojář zavolat sám. Proto má každá ze stránek svoji veřejně přístupnou metodu init(), která se v Reactu volá po prvním renderu. Tím ovšem vzniká další problém – když se stránka načte, ještě nemá data. Proto jsem si vytvořil vlastní funkci load(), kterou všechny stránky používají, spolu s isInitialized stavem. Ten se změní, jakmile se všechna data načtou, a díky tomu vím, kdy stránku zobrazit uživateli, a kdy ji nahradit načítací animací.
+
+Každý ze storů má dvě speciální pole. FormChanged se nastaví na true po tom, co změníte jakákoliv data na stránce – třeba vlastní přezdívku. Tím se Vám zároveň odemkne tlačítko s odesláním dat, čímž jsem alespoň částečně zabránil tomu, aby náš server zaplňovaly prázdné požadavky. Jakmile data odešlete, formChanged se opět nastaví na false a tlačítko zamkne.
+
+FormLoading se zase nastaví na true po tom, co data uložíte. Zamkne všechna pole, aby hodnoty zůstaly během odesílání konzistentní, a zůstane tak, dokud server nepošle odpověď.
+
+Pokud je na stránkách potřeba nějaké volání na API, i to naleznete zde. Kromě metody init() a save(), které jsou všude, mají některé stránky i své vlastní metody – třeba na smazání a nahrání fotky v nastavení účtu, nebo připojení Facebooku a Instagramu v sociálních sítích.
+
+U nastavení účtu a změny hesla jsem se nevyhnul ani validaci dat. Pokaždé, když kliknete na tlačítko pro uložení, spustí se metoda validate(). Ta aktualizuje hodnoty jako nicknameIsValid, nebo emailIsValid podle toho, zda nejsou prázdné nebo v neplatném formátu. Getterem isValid() se dá následně zjistit, zda validace prošla.
+
+Pokud bylo vráceno true, spustí se část, kterou mají všechny stránky stejnou – funkce save(). Podobně jako load() bere jako argument metodu, kterou má spustit (každý store má kromě init() i svůj save()), a také již zmíněné formLoading a formChanged, se kterými podle odpovědi serveru manipuluje. Ať už je odpověď jakákoliv, vždy se dole zobrazí Toast, díky němuž uživatel zjistí, zda se operace zdařila, server neodpovídá, nebo se například neshodují hesla.

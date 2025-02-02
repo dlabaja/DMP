@@ -1,0 +1,19 @@
+\section{JavaScript}
+
+Nyní už jsou Vaše možnosti opravdu neomezené. JavaScript má přístup k HTML ve formě DOMu\cite{DOMIntroduction}\cite{JSDom}, díky čemuž ho může číst a následně s ním jednoduše manipulovat. Můžete do elementů vkládat aktuální data, filtrovat tabulky, počítat, používat funkce, podmínky, cykly, a vlastně dělat cokoliv, co umí i jakýkoliv jiný programovací jazyk. Tedy pokud Vám nevadí omezení prohlížečem, ale to časem také obejdeme. Díky online repozitářům (například NPM) máte přístup k milionům knihoven, které můžete používat. Stránky jsou najednou živé a působí daleko lépe.
+
+Ačkoliv se to tak nemusí podle názvu zdát, JavaScript má s Javou jen pramálo společného. Vznikl v roce 1995 během deseti dnů, tehdy ještě pod jménem Mocha a LiveScript. Javu má ve jméně víceméně jen proto, že v době jeho vzniku byla populární. Stojí za ním zaměstnanec Netscapu a standardy pro něj vyvíjí organizace Ecma International. Podle ní se značí i jeho verze (ES5, ES6, \ldots).\cite{JSIntroduction}\cite{JSOrigins}\cite{JSHistory}
+
+Protože se jedná o jediný jazyk, který umí prohlížeče číst, a zároveň je jednoduchý na pochopení i programování, docela rychle se rozšířil. O to více, když v roce 2009 vzniklo Node.js a osvobodilo ho od sandboxovaného prostředí prohlížeče. Od té doby v něm lze napsat opravdu skoro všechno.
+
+JavaScript má dva typy proměnných – let (dá se měnit) a const (neměnná). Do nich lze přiřazovat různé zabudované typy jako boolean, number (64bitové desetinné číslo), bigInt, string, array, date, objekt a několik dalších. Existuje i pár prázdných typů, jako je undefined při prázdné hodnotě, null při prázdném objektu a NaN, pokud něco počítáte a nevyjde číslo. Typy se nicméně kontrolují až při běhu, takže se na špatné přiřazení často přichází, až když je příliš pozdě.\cite{JSBasics}\cite{JSTypes}
+
+Pokud píšete podmínky, musíte dávat pozor na porovnávání. Dvě rovnítka porovnávají typy, a tři hodnoty. Záměnou prvního rovnítka s vykřičníkem vznikne negace. $\&\&$ znamená AND a $||$ zase OR. Některé typy (undefined, null, NaN, prázdné řetězce) se označují jako \textit{falsy} typy a vždy se v podmínkách přeloží na \texttt{false}. Dále můžete používat ternary operátory ($x\ ?\ y : z$, pokud je $x$ pravda, vykoná se $y$, jinak $z$) nebo $\&\&$ ($x\ \&\&\ y$, pokud je $x$ prázdný typ, vykoná se $y$), které se převážně používá v Reactu pro podmíněné renderování.
+
+Existuje i několik druhů cyklů. V obyčejném for cyklu nastavujete počáteční hodnotu, krok a podmínku, přičemž všechny argumenty jsou nepovinné. Nechybí ani podmíněný while a pro iteraci elementů v seznamu se nejlépe hodí forEach().
+
+Funkce (nebo metoda) je část kódu, který můžete zavolat a případně do něj vložit parametry. Na rozdíl od objektů se nejedná o reference, a tudíž nemůžete zevnitř funkce měnit hodnotu původní proměnné. Pokud funkce nic nevrací, její hodnota je automaticky undefined.
+
+V JavaScriptu je toho samozřejmě mnohem více (třídy, objekty, ...), ale tohle by Vám mělo stačit k pochopení jeho základní struktury a principů. Jak jste si možná všimli, ve věcech jako typování a struktura vytvořená k účelu skriptů se podobá Pythonu, spoustu syntaktických věcí zase jazyk přebral z Javy.
+
+S vývojem webu se vyvíjely i jeho technologie. Dnes již skoro nikdo nedělá profesionální stránky pouze v HTML, CSS a JavaScriptu. Každá z těchto technologií má dnes svoji alternativu, a to i přesto, že nic jiného, než tyto tři jazyky, prohlížeče spustit neumí.

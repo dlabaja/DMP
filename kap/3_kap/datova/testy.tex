@@ -1,0 +1,14 @@
+\subsection{Unit testy}
+Abychom si byli jistí, že web funguje správně alespoň po datové stránce, máme pomocí Jestu (a dříve Karmy) napsaných několik stovek testů. Všechny jsou ve složce test, která má úplně stejnou strukturu jako složka s komponentami, jen s tím rozdílem, že všechny soubory mají příponu .spec.ts.
+
+Každá datová část se testuje trochu jinak. Aktuálně nejvýše v hierarchii jsou testy na datové třídy. Protože jsou neměnné a dají se naplnit jen jednou, je potřeba jen vyzkoušet, zda se data dosadila správně. To jde zjistit pomocí tvorby falešných dat, jejich dosazením a následně porovnáním všech veřejných getterů.
+
+Testům se samozřejmě nevyhnou ani konvertory. Zde konkrétně byl potřeba jen jeden, a to pro první stránku s uživatelským nastavením. Testy jsou z principu podobné těm datovým, opět jen stačí vytvořit falešná data, ty dát do konvertoru, a pak zkontrolovat data nového objektu, který od něj dostaneme.
+
+Poslední a největší skupina testů se zaměřuje na samotné komponenty a jejich MobX store. Zároveň jsou také nejkomplexnější, protože musí pokrýt všechno od přidávání a získávání dat, validací a komunikací s API.
+
+Stejně jako u ostatních typů se i tady kontroluje dosazení do konstruktoru a následný stav. Kromě toho se ale proměnné zkouší nastavit již mimo konstruktor a zkoumají, zda správně funguje setter. Na všech stránkách se ve většině setterů nastavoval i formChanged parametr, který byl také potřeba do testů zahrnout.
+
+Validace už je docela komplikovaná. Například u přezdívky se jen stačilo ujistit, že není prázdná. Email už zase musel mít správnou strukturu. A AppearAs, Combo box, který určoval, zda budete viditelní pod přezdívkou nebo pod jménem, si musel být jistý, že při výběru „Pod jménem“ byla správně nastavená alespoň jednu část jména a „Pod přezdívkou“ zase požadoval nastavenou přezdívku, která se validovala v předchozím kroku.
+
+Následně se testují všechny metody integrující API volání. Ačkoliv jsou všechny z nich jen mocky a ve skutečnosti na server nevolají, můžu vyzkoušet, zda se pod nimi zabalená API metoda zavolala s těmi parametry, které jsem jejímu rodiči předal. K tomu se výborně hodí SpyObject.

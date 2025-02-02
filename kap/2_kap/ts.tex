@@ -1,0 +1,11 @@
+\section{TypeScript}
+
+Typescript je jazyk, který se transpiluje do JavaScriptu, a díky tomu ho prohlížeče stále umí číst. Má ale několik výhod, které jemu příbuznému chybí.
+
+Jednou z nich je podpora typování proměnných. O tom, jak typy hlídá JavaScript, jsem již mluvil. Ačkoliv se bez typů možná rychleji píše, nikdo nechce, aby se podobná chyba objevila například na produkci. Díky jejich podpoře tak nejen můžete přímo definovat, zda je proměnná číslo, řetězec, nebo objekt, ale hlavně se následná kontrola provádí už při kompilaci. Pokud ta selže, nevytvoří se ani finální stránka. Pro ty, kteří ani přesto nechtějí typy definovat, stále existuje možnost podstoupit veškerá rizika a označit proměnné jako any.
+
+Další skvělou funkcí je podpora pro enumy.\cite{WhatIsAnEnum} Tato struktura existuje v několika dalších jazycích a můžete definovat řetězcové i číselné. Využít se dají, pokud máte neměnný seznam, ale jeho hodnoty nechcete číst pomocí indexů. Místo \texttt{colors[2]} můžete rovnou zavolat \texttt{Colors.BLUE} a kromě lepší čitelnosti zamezíte tomu, že barvu někdo v seznamu posune na jiné místo.
+
+Dále můžete tvořit interface – rozhraní, které následně můžete použít jako šablonu při plnění objektů. Fungují i jako argumenty pro funkci, což Vám zvlášť u těch větších ušetří spoustu místa.
+
+Zpět k typům, je jich více druhů. Například můžete definovat union (proměnná může mít více typů) a intersection (proměnná musí mít kombinaci typů) typ. Dokonce můžete funkcím nastavit tzv. generický typ a ten pak použít například při převodu hodnoty z jednoho typu na druhý.\cite{TSGenerics} A když už mluvím o funkcích, ty můžete nastavit jako privátní (nejdou volat mimo třídu), \uv{přetížit je} (udělat více funkcí se stejným jménem, kdy každá požaduje jiné argumenty), přidávat na ně dekorátory (modifikuje jejich chování) a následně je importovat nebo exportovat jako moduly.

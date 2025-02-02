@@ -1,0 +1,9 @@
+\section{Jest}
+
+Když už je stránka hotová, musíte zaručit, že její aktuální a budoucí funkce budou fungovat, a že pokud najdete a opravíte bug, neobjeví se tam za pár měsíců znovu. Je několik možností, jak stránku a komponenty testovat\cite{TypesOfTests}. Vizuální, které pořizují fotky komponent a porovnávají jejich vzhled, end-to-end, které přímo interagují s prohlížečem, a nebo nějaká forma unit testů, které zajišťují, že i když se může někdy rozpadnout vzhled, vždy budou alespoň sedět data. A právě o ty se Jest stará.
+
+V každém souboru označeném *.spec* můžete pomocí funkcí describe() a it() vytvářet unit testy. Do metody expect() následně pošlete věc, kterou chcete porovnat, a do metod toBe() (porovnávání hodnot proměnných) nebo toEqual() (porovnávání objektů) zase hodnotu, které by se to reálně mělo rovnat. A pokud se to rovnat nebude, test spadne, a Vám o tom dá ihned vědět.
+
+Zároveň můžete pracovat i s funkcemi\cite{JestMethods}. Buď se dají vytvářet mocky, a nimi nahrazovat funkce nebo celé moduly, nebo, pokud Vám záleží na jejich implementaci, můžete použít spyOn(). Poté se můžete podívat, kolikrát a s jakými parametry se funkce zavolala.
+
+A Jest umí ještě jednu zajímavou věc. Ukáže vám, jaké máte pokrytí projektu testy\cite{JestCoverage}. A ačkoliv se asi nikdy nedostanete ke sto procentům, čím více testů, tím méně budete řešit v budoucnosti chyb.

@@ -1,48 +1,44 @@
 \subsection{Komponenty}
 
-Aby se dal kód co nejlépe znovu využívat, shlukuje se do samostatných komponent. Takhle se dá znovu a znovu použít na několika místech v projektu. Aby byla správně napsaná a kód co nejméně komplexní, je potřeba dodržovat pravidla jako izolovanost (její funkčnost by neměla být podmíněná jinou komponentou), \uv{indempotentnost} (jeden vstup bude mít vždy jen jeden výstup, něco jako funkce v matematice), neměnnost propů a stavů, a několik dalších. 
-
-K izolovanosti se řadí i pravidlo nestylovat komponenty zvenku. A pokud chcete měnit vlastnosti zahrnující styl, pak komponentě posílejte parametrem například výšku a podle hodnoty jí nastavte styl až uvnitř. Tímto se zároveň dodrží i smysl CSS modulů a nebudete mít různě po webu deset variant jedné komponenty.
+Aby se dal projekt co nejlépe škálovat, shlukuje se kód do samostatných komponent. Takto se dá využívat na několika místech v projektu.
 
 \subsubsection{Div}
-Protože podle pravidel Reactu byste nikdy neměli stylovat komponentu přímo, je třeba si poradit jinak. Styly můžete pořád přidávat na primitivní HTML elementy, aniž byste integritu komponent jakkoliv narušili. Díky obalení do <div /> tak najednou můžete komponenty posouvat, přidávat přes ně vrstvy, a různě s nimi manipulovat.
+Aby byly komponenty konzistentní, neměly by se nikdy stylovat zvenku. Můžete ale stylovat elementy, které je obalují. Díky obalení do \texttt{<div/>} tak najednou můžete komponenty posouvat, přidávat přes ně vrstvy, a různě s nimi manipulovat.
 
 \subsubsection{FlexRow a FlexColumn}
 Tyto dvě jednoduché komponenty jsem v rozvržení používal skoro všude. Mají na sobě flex box a dá se jim nastavovat řádkování, zarovnání obsahu, a kombinace sloupců a řádků umožňuje vytvořit jakkoliv komplexní design.
 
 \subsubsection{Text}
-Jedna z našich nejjednodušších komponent je obyčejný text. Dá se na něm měnit velikost, barva, tučnost, podtržení, a několik dalších vlastností.
+Jedna z našich nejjednodušších komponent je obyčejný text. Dá se na něm měnit velikost, barva, tučnost, podtržení, a několik dalších vlastností. Pro nadpisy používáme Heading, který automaticky velikost textu přizpůsobuje rozlišení obrazovky.
 
 \subsubsection{Ikona}
-Na stránkách používáme dva typy ikon – Fluent ikony jsou externí (viz \href{https://fluenticons.co}{https://fluenticons.co}) a obsahují knihovnu několika tisíc piktogramů, které se dají použít téměř pro všechny účely. Ostatní ikony a obrázky, které knihovna nemá, si pak sami vytváříme jako SVG obrázky ve složce custom.
+Na stránkách používáme dva typy ikon – Fluent ikony jsou externí (viz \href{https://fluenticons.co}{https://fluenticons.co}) a obsahují knihovnu několika tisíc piktogramů, které se dají použít téměř pro všechny účely. Ostatní ikony a obrázky, které knihovna nemá, si pak tvoříme sami, ve formátu SVG nebo PNG.
 
 \subsubsection{Tlačítko}
-Tlačítek můžete na webu najít osm druhů, každé z nich používá trochu jinou barevnou paletu (modré, černé, transparentní, ...). Kromě textu podporují i ikony (zleva nebo zprava), velikost, dají se vypnout, a dokonce umí zobrazovat načítací animaci, kterou jsem použil pro odesílání dat formuláře.
+Tlačítek můžete na webu najít osm druhů, každé z nich používá trochu jinou barevnou paletu (zelené, černé, transparentní, ...). Kromě textu podporují i ikony (zleva nebo zprava), velikost, dají se vypnout, a dokonce umí zobrazovat načítací animaci, kterou jsem použil pro odesílání dat formuláře.
 
 Kromě toho máme vytvořené checkboxy nebo toggly, které na stránce s nastavením naleznete také.
 
 \subsubsection{Link}
-Ačkoliv se na první pohled může zdát, že se jedná pouze o Next.js <Link /> element, zde můžete dělat ještě několik věcí navíc. Místo psaní url se zde používají ActionData, objekt, kterým skládáme cesty na všechny stránky projektu. Dokonce umí otevírat i soubory, nebo stránky v novém panelu.
+Do normálního odkazu musíte psát celou adresu. Do našeho se vkládá objekt ActionData, který ji reprezentuje a jeho předdefinované hodnoty zabraňují duplicitním a chybným url. Umí otevírat i soubory nebo stránky v novém panelu a je plně kompatibilní s Next.js - po najetí na něj pošle požadavek serveru na vykreslení další stránky, takže uživatel po kliknutí nemusí na nic čekat.
 
 \subsubsection{Text box}
-Základ této komponenty tvoří obyčejný <input /> element. Je ale obohacený o placeholder, který ze přesune nahoru, pokud má Text box nějaký obsah. Pokud je jeho obsah nesprávný, je možnost mu nastavit parametr errorMessage a tím ho celý nechat zčervenat, včetně malého textu s vysvětlením chyby pod boxem. Také se mu dá měnit typ (například na heslo), zda se do něj dá psát, nebo jeho velikost.
+Základ této komponenty tvoří obyčejný \texttt{<input/>} element. Je ale obohacený o placeholder, který ze přesune nahoru, pokud má Text box nějaký obsah. Pokud je jeho obsah nesprávný, je možnost mu nastavit parametr errorMessage a tím ho celý nechat zčervenat, včetně malého textu s vysvětlením chyby pod boxem. Také se mu dá měnit typ (například na heslo), zda se do něj dá psát, nebo jeho velikost.
 
 \subsubsection{Combo box}
-Pokud potřebujete vybrat více možností, musíte použít nějakou formu combo boxu. Ten základní, který je jen rozšířená verze toho z knihovny react-select, má podobné parametry co Text box, ale je navíc obohacen o pole hodnot. Pokud je hodnot moc, dá se povolit hledání podle vstupu z klávesnice a pro přívětivou práci s mobilem se na něm roztáhne přes část obrazovky.
-
-Combo boxů máme ještě tři typy. Zatímco ten první obsahuje všechny země světa i s jejich vlajkami, druhý má zase uložené veškeré světové měny i s jejich značkou. Třetí jsem vytvořil teprve nedávno a obsahuje všechny telefonní předvolby (opět i s vlajkami).
+Tato komponenta je užitečná pro výběr z předdefinovaných hodnot. Její základ tvoří knihovna react-select. Dá se v něm vyhledávat, má podporu i pro mobilní telefony a v projektu ho často používáme například pro výběr zemí, měn, nebo telefonních předvoleb.
 
 \subsubsection{Text editor}
-Někdy potřebujete text s formátováním. A rozdíl mezi normálním <input /> elementem a naší Text editor komponentou je srovnatelný s rozdílem mezi poznámkovým blokem a Wordem. A tím myslím i v komplexnosti, podobný editor jsem si zkoušel napsat sám a není to nic jednoduchého. Samozřejmá je podpora kurzívy, podtržení, i tučného písma, tvorba seznamů, hypertextových odkazů, i vestavěná klávesnice pro emotikony.
+Někdy potřebujete text s formátováním. A rozdíl mezi normálním \texttt{<input/>} elementem a naší Text editor komponentou je srovnatelný s rozdílem mezi poznámkovým blokem a Wordem. A tím myslím i v komplexnosti, podobný editor jsem si zkoušel napsat sám a není to nic jednoduchého. Samozřejmá je podpora kurzívy, podtržení, i tučného písma, tvorba seznamů, hypertextových odkazů, i vestavěná klávesnice pro emotikony.
 
 \subsubsection{Toast}
-Toast je obdélníková komponenta, která se (většinou dole) zobrazí, aby uživatele informovala o vykonané akci. Například zda se uložily změny. Nebo naopak, že server neodpovídá.
+Toast je obdélníková komponenta, která se (většinou dole) zobrazí, aby uživatele informovala o vykonané akci. Například, zda se uložily změny, nebo naopak, že server neodpovídá.
 
 \subsubsection{Swipeable drawer}
 Díky této komponentě od mého oblíbeného Material UI můžeme poskytovat hezké rozhraní i pro mobil. Ačkoliv umí jen „vysunout“ obsah přes část stránky, používáme ji pro mobilní Combo boxy i Menu v nastavení a administraci. Aktivace probíhá kliknutím na tlačítko a zpět se zasune dotykem kamkoliv mimo sebe.
 
 \subsubsection{Banner with editor}
-První ze zmíněných komponent, kterou jsem částečně vytvořil sám. Původně šlo o banner na profilu, ale protože ho nikdo neplánoval znovu použít, veškerá logika pro úpravu fotky byla v kompozici. Vše se mi povedlo sjednotit a nyní se do něj jednoduše vkládají parametry jako fotka, akce při změně nebo smazání fotky, zda má tlačítko pro úpravy a také její výška, která se na obou stránkách liší.
+První ze zmíněných komponent, kterou jsem částečně vytvořil sám. Původně šlo o banner na profilu, ale protože ho nikdo neplánoval znovu použít, veškerá logika pro úpravu fotky byla mimo něj. Vše se mi povedlo sjednotit a nyní se do něj jednoduše vkládají parametry jako fotka, akce při změně nebo smazání fotky, zda má tlačítko pro úpravy a také její výška, která se na obou stránkách liší.
 
 \subsubsection{User icon with editor}
 Ikona s uživatelskou fotkou měla ten samý problém co banner. Veškerá logika pro úpravu fotky byla součástí velké kompozice profilu. Pokud jste majitel profilu (nebo jen nastavíte parametr canEdit na true), můžete si jednoduše změnit vaši profilovou fotku.

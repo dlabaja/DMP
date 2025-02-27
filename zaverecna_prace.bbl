@@ -197,67 +197,6 @@
       \verb https://css-tricks.com/snippets/css/a-guide-to-flexbox
       \endverb
     \endentry
-    \entry{DOMIntroduction}{online}{}
-      \name{author}{1}{}{%
-        {{hash=5f69f46e482f6a40a09f01b00eb908c9}{%
-           family={contributors},
-           familyi={c\bibinitperiod},
-           given={MDN},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{5f69f46e482f6a40a09f01b00eb908c9}
-      \strng{fullhash}{5f69f46e482f6a40a09f01b00eb908c9}
-      \strng{bibnamehash}{5f69f46e482f6a40a09f01b00eb908c9}
-      \strng{authorbibnamehash}{5f69f46e482f6a40a09f01b00eb908c9}
-      \strng{authornamehash}{5f69f46e482f6a40a09f01b00eb908c9}
-      \strng{authorfullhash}{5f69f46e482f6a40a09f01b00eb908c9}
-      \field{extraname}{1}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Introduction to the DOM}
-      \field{urlday}{11}
-      \field{urlmonth}{8}
-      \field{urlyear}{2024}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
-      \endverb
-      \verb{url}
-      \verb https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
-      \endverb
-    \endentry
-    \entry{JSDom}{online}{}
-      \name{author}{1}{}{%
-        {{hash=619da079b73180cbed34aab6a245e5de}{%
-           family={W3schools},
-           familyi={W\bibinitperiod}}}%
-      }
-      \strng{namehash}{619da079b73180cbed34aab6a245e5de}
-      \strng{fullhash}{619da079b73180cbed34aab6a245e5de}
-      \strng{bibnamehash}{619da079b73180cbed34aab6a245e5de}
-      \strng{authorbibnamehash}{619da079b73180cbed34aab6a245e5de}
-      \strng{authornamehash}{619da079b73180cbed34aab6a245e5de}
-      \strng{authorfullhash}{619da079b73180cbed34aab6a245e5de}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{JavaScript HTML DOM}
-      \field{urlday}{2}
-      \field{urlmonth}{11}
-      \field{urlyear}{2024}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.w3schools.com/js/js_htmldom.asp
-      \endverb
-      \verb{url}
-      \verb https://www.w3schools.com/js/js_htmldom.asp
-      \endverb
-    \endentry
     \entry{JSIntroduction}{online}{}
       \name{author}{1}{}{%
         {{hash=5921cc97f07da91d5ea48cbf66955405}{%
@@ -272,8 +211,8 @@
       \strng{authorbibnamehash}{5921cc97f07da91d5ea48cbf66955405}
       \strng{authornamehash}{5921cc97f07da91d5ea48cbf66955405}
       \strng{authorfullhash}{5921cc97f07da91d5ea48cbf66955405}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{An Introduction to JavaScript}
@@ -363,7 +302,7 @@
       \strng{authorbibnamehash}{5f69f46e482f6a40a09f01b00eb908c9}
       \strng{authornamehash}{5f69f46e482f6a40a09f01b00eb908c9}
       \strng{authorfullhash}{5f69f46e482f6a40a09f01b00eb908c9}
-      \field{extraname}{2}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -395,7 +334,7 @@
       \strng{authorbibnamehash}{5f69f46e482f6a40a09f01b00eb908c9}
       \strng{authornamehash}{5f69f46e482f6a40a09f01b00eb908c9}
       \strng{authorfullhash}{5f69f46e482f6a40a09f01b00eb908c9}
-      \field{extraname}{3}
+      \field{extraname}{2}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -413,35 +352,67 @@
       \verb https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
       \endverb
     \endentry
-    \entry{WhatIsAnEnum}{online}{}
+    \entry{JSFunctions}{online}{}
       \name{author}{1}{}{%
-        {{hash=0b5c90fed25bb933b938e1b917503c58}{%
-           family={Bolton},
-           familyi={B\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod}}}%
+        {{hash=5f69f46e482f6a40a09f01b00eb908c9}{%
+           family={contributors},
+           familyi={c\bibinitperiod},
+           given={MDN},
+           giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{0b5c90fed25bb933b938e1b917503c58}
-      \strng{fullhash}{0b5c90fed25bb933b938e1b917503c58}
-      \strng{bibnamehash}{0b5c90fed25bb933b938e1b917503c58}
-      \strng{authorbibnamehash}{0b5c90fed25bb933b938e1b917503c58}
-      \strng{authornamehash}{0b5c90fed25bb933b938e1b917503c58}
-      \strng{authorfullhash}{0b5c90fed25bb933b938e1b917503c58}
+      \strng{namehash}{5f69f46e482f6a40a09f01b00eb908c9}
+      \strng{fullhash}{5f69f46e482f6a40a09f01b00eb908c9}
+      \strng{bibnamehash}{5f69f46e482f6a40a09f01b00eb908c9}
+      \strng{authorbibnamehash}{5f69f46e482f6a40a09f01b00eb908c9}
+      \strng{authornamehash}{5f69f46e482f6a40a09f01b00eb908c9}
+      \strng{authorfullhash}{5f69f46e482f6a40a09f01b00eb908c9}
+      \field{extraname}{3}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{What Is an Enum in Programming Languages?}
-      \field{urlday}{14}
-      \field{urlmonth}{8}
+      \field{title}{Functions}
+      \field{urlday}{7}
+      \field{urlmonth}{10}
       \field{urlyear}{2024}
       \field{year}{2024}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://www.thoughtco.com/what-is-an-enum-958326
+      \verb https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions
       \endverb
       \verb{url}
-      \verb https://www.thoughtco.com/what-is-an-enum-958326
+      \verb https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions
+      \endverb
+    \endentry
+    \entry{JSFunctionalProgramming}{online}{}
+      \name{author}{1}{}{%
+        {{hash=5dd7a91927622eae8101516f80aaa1d5}{%
+           family={Aryan},
+           familyi={A\bibinitperiod},
+           given={Avi},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{5dd7a91927622eae8101516f80aaa1d5}
+      \strng{fullhash}{5dd7a91927622eae8101516f80aaa1d5}
+      \strng{bibnamehash}{5dd7a91927622eae8101516f80aaa1d5}
+      \strng{authorbibnamehash}{5dd7a91927622eae8101516f80aaa1d5}
+      \strng{authornamehash}{5dd7a91927622eae8101516f80aaa1d5}
+      \strng{authorfullhash}{5dd7a91927622eae8101516f80aaa1d5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction to Functional Programming: JavaScript Paradigms}
+      \field{urlday}{22}
+      \field{urlmonth}{2}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.toptal.com/javascript/functional-programming-javascript
+      \endverb
+      \verb{url}
+      \verb https://www.toptal.com/javascript/functional-programming-javascript
       \endverb
     \endentry
     \entry{TSGenerics}{online}{}
@@ -474,6 +445,37 @@
       \endverb
       \verb{url}
       \verb https://www.typescriptlang.org/docs/handbook/2/generics.html
+      \endverb
+    \endentry
+    \entry{WhatIsAnEnum}{online}{}
+      \name{author}{1}{}{%
+        {{hash=0b5c90fed25bb933b938e1b917503c58}{%
+           family={Bolton},
+           familyi={B\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{0b5c90fed25bb933b938e1b917503c58}
+      \strng{fullhash}{0b5c90fed25bb933b938e1b917503c58}
+      \strng{bibnamehash}{0b5c90fed25bb933b938e1b917503c58}
+      \strng{authorbibnamehash}{0b5c90fed25bb933b938e1b917503c58}
+      \strng{authornamehash}{0b5c90fed25bb933b938e1b917503c58}
+      \strng{authorfullhash}{0b5c90fed25bb933b938e1b917503c58}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What Is an Enum in Programming Languages?}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.thoughtco.com/what-is-an-enum-958326
+      \endverb
+      \verb{url}
+      \verb https://www.thoughtco.com/what-is-an-enum-958326
       \endverb
     \endentry
     \entry{Sass}{online}{}
@@ -567,6 +569,37 @@
       \endverb
       \verb{url}
       \verb https://github.com/css-modules/css-modules
+      \endverb
+    \endentry
+    \entry{Tailwind}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d37590cab97ef9a035c956cd0a068412}{%
+           family={Inc.},
+           familyi={I\bibinitperiod},
+           given={Tailwind\bibnamedelima Labs},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{d37590cab97ef9a035c956cd0a068412}
+      \strng{fullhash}{d37590cab97ef9a035c956cd0a068412}
+      \strng{bibnamehash}{d37590cab97ef9a035c956cd0a068412}
+      \strng{authorbibnamehash}{d37590cab97ef9a035c956cd0a068412}
+      \strng{authornamehash}{d37590cab97ef9a035c956cd0a068412}
+      \strng{authorfullhash}{d37590cab97ef9a035c956cd0a068412}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Tailwind CSS - Rapidly build modern websites without ever leaving your HTML.}
+      \field{urlday}{26}
+      \field{urlmonth}{2}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://tailwindcss.com/
+      \endverb
+      \verb{url}
+      \verb https://tailwindcss.com/
       \endverb
     \endentry
     \entry{JSX}{online}{}
@@ -843,8 +876,8 @@
       \strng{authornamehash}{adb4c2bbd1dfd2e746611ad0af1ff2d7}
       \strng{authorfullhash}{adb4c2bbd1dfd2e746611ad0af1ff2d7}
       \field{extraname}{8}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Mocking modules}
@@ -1152,8 +1185,8 @@
       \strng{authornamehash}{e35a0920c89f1a10d6b82508da377cc1}
       \strng{authorfullhash}{e35a0920c89f1a10d6b82508da377cc1}
       \field{extraname}{3}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Next.js Server and client components}
@@ -1227,6 +1260,37 @@
       \endverb
       \verb{url}
       \verb https://nextjs.org/docs/app/building-your-application/rendering/client-components
+      \endverb
+    \endentry
+    \entry{NextHydration}{online}{}
+      \name{author}{1}{}{%
+        {{hash=466c69abc9555aca1a24af679dbadabb}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={Rajae},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{466c69abc9555aca1a24af679dbadabb}
+      \strng{fullhash}{466c69abc9555aca1a24af679dbadabb}
+      \strng{bibnamehash}{466c69abc9555aca1a24af679dbadabb}
+      \strng{authorbibnamehash}{466c69abc9555aca1a24af679dbadabb}
+      \strng{authornamehash}{466c69abc9555aca1a24af679dbadabb}
+      \strng{authorfullhash}{466c69abc9555aca1a24af679dbadabb}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Understanding Hydration in Next.js}
+      \field{urlday}{26}
+      \field{urlmonth}{2}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dev.to/rajaerobinson/understanding-hydration-in-nextjs-b5m
+      \endverb
+      \verb{url}
+      \verb https://dev.to/rajaerobinson/understanding-hydration-in-nextjs-b5m
       \endverb
     \endentry
     \entry{TypesOfTests}{online}{}
@@ -1424,8 +1488,8 @@
       \strng{authornamehash}{280ff0519010fe61c3d21df2d28451b2}
       \strng{authorfullhash}{280ff0519010fe61c3d21df2d28451b2}
       \field{extraname}{1}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Localization for teams of any size}
@@ -1454,8 +1518,8 @@
       \strng{authornamehash}{280ff0519010fe61c3d21df2d28451b2}
       \strng{authorfullhash}{280ff0519010fe61c3d21df2d28451b2}
       \field{extraname}{2}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Integrate Localazy}
@@ -1500,6 +1564,68 @@
       \endverb
       \verb{url}
       \verb https://doc.nette.org/en/application/how-it-works
+      \endverb
+    \endentry
+    \entry{Elektronka}{online}{}
+      \name{author}{1}{}{%
+        {{hash=3d4e6f5365dff5355d2e378e28b62590}{%
+           family={Olomouc},
+           familyi={O\bibinitperiod},
+           given={Studenti\bibnamedelima SPŠE},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{3d4e6f5365dff5355d2e378e28b62590}
+      \strng{fullhash}{3d4e6f5365dff5355d2e378e28b62590}
+      \strng{bibnamehash}{3d4e6f5365dff5355d2e378e28b62590}
+      \strng{authorbibnamehash}{3d4e6f5365dff5355d2e378e28b62590}
+      \strng{authornamehash}{3d4e6f5365dff5355d2e378e28b62590}
+      \strng{authorfullhash}{3d4e6f5365dff5355d2e378e28b62590}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Elektronka Online}
+      \field{urlday}{26}
+      \field{urlmonth}{2}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.spseol.cz/prace-zaku-a-studentu/casopis-elektronka
+      \endverb
+      \verb{url}
+      \verb https://www.spseol.cz/prace-zaku-a-studentu/casopis-elektronka
+      \endverb
+    \endentry
+    \entry{ITDoupe}{online}{}
+      \name{author}{1}{}{%
+        {{hash=38ac0baf3e80194291c9fb5235568c37}{%
+           family={Dlabaja},
+           familyi={D\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{38ac0baf3e80194291c9fb5235568c37}
+      \strng{fullhash}{38ac0baf3e80194291c9fb5235568c37}
+      \strng{bibnamehash}{38ac0baf3e80194291c9fb5235568c37}
+      \strng{authorbibnamehash}{38ac0baf3e80194291c9fb5235568c37}
+      \strng{authornamehash}{38ac0baf3e80194291c9fb5235568c37}
+      \strng{authorfullhash}{38ac0baf3e80194291c9fb5235568c37}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{IT doupě}
+      \field{urlday}{26}
+      \field{urlmonth}{2}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/dlabaja/IT_doupe
+      \endverb
+      \verb{url}
+      \verb https://github.com/dlabaja/IT_doupe
       \endverb
     \endentry
   \enddatalist

@@ -1,6 +1,7 @@
 \section{CSS}
 
-Styly Vám na stránce umožní upravit skoro všechno – měnit barvy, odsazení, pozice, velikost, \ldots. Stačí jeden takový soubor připojit do hlavičky stránky. V něm definujete, co konkrétně chcete změnit. Zde uvedu příklad na tlačítku.
+Styly vám na stránce umožní upravit téměř vše – měnit barvy, odsazení, pozice,
+\mbox{velikost},~\ldots. Dají se psát buď do samostatných souborů s příponou \textit{.css}, do \texttt{<style></style>} elementu, nebo do \textit{style} atributu. Pro výběr konkrétních elementů se požívají tzv. selektory. Zde uvedu příklad na tlačítku.
 
 \begin{table}[h!]
 \centering
@@ -8,17 +9,14 @@ Styly Vám na stránce umožní upravit skoro všechno – měnit barvy, odsazen
 \hline
 \textbf{Selektor} & \textbf{Popis} \\ \hline
 \texttt{button \{\}} & Změní všechny \texttt{<button/>} elementy na stránce \\ \hline
-\texttt{.save-button \{\}} & Změní všechny elementy se třídou (\textit{class}) \texttt{save-button} \\ \hline
+\texttt{.blue-button \{\}} & Změní všechny elementy se třídou (\textit{class}) \texttt{save-button} \\ \hline
 \texttt{\#top-button \{\}} & Změní jeden konkrétní element s identifikátorem (\textit{id}) \texttt{top-button} \\ \hline
 \end{tabular}
 \caption{Příklady CSS selektorů a jejich funkcí.}
 \end{table}
 
-Do složených závorek následně můžete psát konkrétní změny. Například \texttt{background:~red;} nastaví pozadí prvku na červeno, \texttt{margin-right:~10px;} ho zase odsadí zprava o 10~pixelů apod. 
-Styly můžete podobně jako u HTML vkládat do sebe – můžete si takto třeba pojistit, aby se změnil jen element s konkrétním rodičem. Můžete také přídávat pseudo třídy jako \texttt{:hover} (změní element, pokud na něj najede kurzor myši), \texttt{:first-child} (aplikuje se na prvního potomka rodiče) a mnohé další.
+Do složených závorek následně můžete psát konkrétní styly. Například \texttt{background:~red;} nastaví pozadí prvku na červeno, \texttt{margin-right:~10px;} ho zase odsadí zprava o 10~pixelů, apod. Pokud chcete na element odkázat nepřímo, můžete za selektorem použít symboly \textit{>} (zaměřuje potomka) nebo \textit{<} (zaměřuje rodiče). Můžete také přídávat pseudo třídy jako \texttt{:hover} (změní element, pokud na něj najede kurzor myši), \texttt{:first-child} (aplikuje se na prvního potomka rodiče) a mnohé další. Pro potřeby pokročilých stylů se staly rozšířenými i pseudo elementy (\texttt{::before}, \texttt{::first-line}, \ldots). Jejich prací je vybrat konkrétní část elementu, například jeho potomka nebo první řádek.
 
-Důležité je také chápat rámečky a jak jdou po sobě. Jsou tři – vnitřní okraj (padding) určuje místo mezi obsahem a okrajem elementu (border), a vnější okraj (margin) zase oblast mezi borderem a ostatními prvky. U všech se dá nastavit velikost shora, zdola, zprava a zleva.
+Důležitou znalostí je také chápat box model a jeho jednotlivé části, které obklopují každý element. Jsou tři – vnitřní okraj (padding) určuje místo mezi obsahem a okrajem elementu (border), a vnější okraj (margin) zase oblast mezi elementem a ostatními prvky. U všech se dá nastavit velikost shora, zdola, zprava a zleva.
 
-Ještě zmíním \texttt{display:~flex;}. Ten velmi zjednodušuje pozicování položek. Můžete je mít v řádku nebo sloupci, zarovnávat na začátek, střed, nebo konec, nastavovat mezi prvky mezery, a zároveň je i jednoduše roztahovat pomocí \texttt{flex-grow:~1;}.\cite{CSSFlexbox}
-
-Ačkoliv už stránka vypadá mnohem lépe, zatím nic nedělá. Tlačítka Vás maximálně přesměrují na jinou stránku a pokud chcete vytvořit něco komplexnějšího než blog, je třeba pochopit ještě třetí důležitou technologii.
+Pro responzivní design stránek, které se přizpůsobí jakékoliv obrazovce, vznikl počátkem minulého desetiletí flexbox. Ten konečně zjednodušil pozicování položek, které umožnil dávat do řádků nebo sloupců, zarovnávat je na začátek, střed, nebo konec, nastavovat mezi nimi mezery nebo je roztahovat pro zaplnění kontejneru.\cite{CSSFlexbox} Touto dobou také začala masová podpora media queries, které umožňují dynamicky měnit styly na základě aktuální velikosti stránky nebo vlastností displeje.

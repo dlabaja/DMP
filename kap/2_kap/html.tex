@@ -1,8 +1,6 @@
 \section{HTML}
 
-
-
-HTML je značkovací jazyk a slouží pouze k definování struktury stránky. Skládá se z párových (\texttt{<span>}potomek\texttt{</span>}) a nepárových (\texttt{<img/>}) značek, které poznáte podle toho, zda v sobě obsahují potomky.
+Na webu neexistuje důležitější technologie, než právě HTML. Bez tohoto značkovacího jazyku by na našem webu chyběl jakýkoliv obsah, slouží totiž k definování struktury stránky. Jeho syntax se skládá z párových (\texttt{<span>}potomek\texttt{</span>}) a nepárových (\texttt{<img/>}) značek, které se liší podle toho, zda v sobě obsahují potomky.
 
 Zde je seznam několika základních elementů:
 
@@ -25,8 +23,8 @@ Zde je seznam několika základních elementů:
 \caption{Seznam základních elementů v HTML.}
 \end{table}
 
-Každý validní HTML dokument by měl mít dvě části. První je hlavička (head), ve které jsou definované věci, které na stránce nejdou vidět. Třeba její název, lokace skriptů a stylů, jazyk, font, nebo metadata. Druhá část je tělo (body). Tady už můžete používat všechny dříve zmíněné elementy a zobrazovat obsah samotné stránky.
+Každý validní HTML dokument by měl mít dvě části. První je hlavička (head), ve které jsou definované informace, které na stránce nejsou vidět, jako její název, lokace skriptů a stylů, jazyk, font, nebo metadata. Druhá část je tělo (body). Tady už můžete používat všechny dříve zmíněné elementy a zobrazovat obsah samotné stránky.
 
-Každý prvek má několik atributů, které můžete nastavit. Id je unikátní a class zase reprezentuje skupiny prvků. Ještě se k nim dostanu. Pomocí href můžete nastavit url adresu (užitečné pro odkazy) a eventy jako onclick zase spustí skript, pokud se naplní nějaká podmínka (v tomto případě kliknutí na tlačítko).
+Každý element má několik atributů, které můžete nastavit. \textit{Id} slouží jako unikátní identifikátor a \textit{class} zase reprezentuje skupinu prvků. Pomocí \textit{href} můžete prvku nastavit url adresu, a eventy jako \textit{onclick} nebo \textit{onmouseover} zase po splnění podmínky (kliknutí na element, přejetí myší) spustí definovaný skript.
 
-Samo o sobě se dnes HTML defacto nepoužívá. Má pouze základní font, bílé pozadí, a spíše než webovou stránku připomíná Word dokument. Je třeba ho nějak vylepšit. A přesně to je úkol stylů.
+V raných verzích se HTML dalo použít nejen k definování struktury stránky, ale i k jejímu stylování a pozicování jednotlivých elementů. Postupem času se ale toto paradigma stalo zbytečně komplexním, a tak se struktura a prezentace oddělily a vzniklo CSS.

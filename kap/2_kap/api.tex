@@ -1,8 +1,7 @@
 \section{API}
 
-Frontend je nyní de facto za Vámi. Abyste ale mohli komunikovat se serverem, který se stará o přístup do databáze a posílání stránek uživatelům, potřebujete nějaký univerzální most, který Vás s ním spojí A právě tomu se říká API\cite{WhatIsAPI}.
-\todo{rozepsat různé druhy API}
+API (Application Programming Interface) je způsob, kterým mezi sebou mohou komunikovat dva rozdílné systémy. Vlastně jde o soubor pravidel, které si oba definují a které následně používají pro dorozumívání.\cite{WhatIsAPI}
 
-Používáte ho denně, a ani o tom možná nevíte. Pokud potřebuje stránka dynamická data, musí o to požádat server HTTP požadavkem. Server po jeho vyhodnocení zase použije nějakou jinou API, díky níž se dostane do databáze, a až dostane odpověď, stejným HTTP požadavkem odpoví uživateli. Jeho stránka tak teď může konečně zobrazit data.
+Jedna forma API se používá i na webu. Stojí na protokolu HTTP a jeho metodách GET (získání dat), POST (odesílání dat), nebo PUT (ukládání souborů na server). Můžete v nich používat libovolný formát, nejčastější je HTML, JSON a XML.
 
-Důvodem, proč se většina dat posílá skrze JSON a XML, je jejich jednoduchá extrakce. Například knihovna HTMX ale přijímá data pouze v HTML. To může mít několik nevýhod. Data se z HTML těžko dostávají, a pokud je budete v tomhle formátu ukládat v databázi, pak už je nemůžete použít ani na jiné stránce, ani třeba v mobilní aplikaci. To je velká výhoda právě JSON formátu. Je podobně velký, jako kdybyste posílali normální text, ale zároveň z něj všude dokážete udělat datový objekt a používat jeho obsah.
+Komunikace mezi klientem a serverem vypadá většinou takto - klient odešle GET požadavek na server a ten mu vrátí HTML stránku nebo jiná data. Pokud chce klient něco uložit, odešle data metodou POST nebo PUT, server s pomocí jiné formy API uloží data do databáze a klientovi vrátí odpověď obsahující úspěšnost požadavku.

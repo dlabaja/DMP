@@ -1,33 +1,40 @@
 \section{Next.js}
 
-Ať už je to směrování, optimalizace obrázků, nebo SEO, o většinu těchto věcí se musíte postarat sami. A často to není nic jednoduchého. Proto existuje framework Next.js\cite{NextJSDocs}, nástavba Node.js s podporou Reactu, který dokáže celý web posunout s minimem znalostí na úplně novou úroveň. Popsat ho celý by bylo na další dlouhodobou práci, proto tady zmíním alespoň základní výhody. Zároveň doporučuji projít si tuto příručku (\href{https://nextjs.org/learn}{https://nextjs.org/learn})\cite{NextJSLearn}, která je všechny vysvětluje do hloubky a ještě Vás naučí pár věcí navíc.
+Ať už je to směrování, optimalizace obrázků, nebo SEO, o většinu těchto věcí se musíte postarat sami. A často to není nic jednoduchého. Proto existuje framework Next.js\cite{NextJSDocs}, nástavba Node.js s podporou Reactu, který dokáže celý web pozvednout s minimem znalostí na úplně novou úroveň. Popsat ho celý by bylo na další dlouhodobou práci, proto tady zmíním alespoň základní výhody. Zároveň doporučuji projít si tuto příručku (\href{https://nextjs.org/learn}{https://nextjs.org/learn})\cite{NextJSLearn}, která je všechny vysvětluje do hloubky a ještě vás naučí pár věcí navíc.
 
 \subsection*{Routing}
 
-Funkci, kterou využijete na každé stránce, je routing a tvorba cest. Už nemusíte endpointy udržovat v samostatných souborech – teď se budou tvořit podle adresářové struktury, neboli tak, jak je umístíte do složky jménem /app. Takže třeba /app/home/explore/page.tsx (každá stránka musí mít tento soubor, něco jako index.html) bude dostupná na url adrese www.example.com/home/explore.
+Funkci, kterou využijete na každé stránce, je routing a tvorba cest. Už nemusíte endpointy udržovat v samostatných souborech – teď se budou tvořit podle adresářové struktury, neboli tak, jak je umístíte do složky jménem \textit{/app}. Takže třeba \textit{/app/home/explore/page.tsx} (každá stránka musí mít tento soubor, něco jako \textit{index.html}) bude dostupná na url adrese \textit{www.example.com/home/explore}.
 
 Celý framework je napsaný tak, aby bylo SPA na prvním místě. SPA znamená Single Page Application a stojí na tom, že místo, aby se po změnění odkazu načetla znovu celá stránka, stačí jen stáhnout a změnit její část – uživatel tak nic nepozná a web se chová jako aplikace.
 
-Ne všechny části jsou ale pokaždé potřeba znovu stahovat. Některé, třeba hlavička, budou po celém webu na stejném místě. Stejně jako má Next.js page.tsx soubory, tak má i layout.tsx, do kterého tyto neměnné komponenty a kompozice můžete zahrnout a ušetřit tak síťový výkon.
+Ne všechny části jsou ale pokaždé potřeba znovu stahovat a načítat. Některé, například hlavička, budou po celém webu na stejném místě. Stejně jako má Next.js \textit{page.tsx} soubory, tak má i \textit{layout.tsx}, do kterého tyto neměnné komponenty a kompozice můžete zahrnout a ušetřit tak síťový výkon.
 
-Pokud potřebujete jednoduše vytvořit API endpoint, můžete využít soubor route.tsx. Pro chyby je error.tsx, pro neplatné cesty not-found.tsx, a dokonce existuje i loading.tsx, který slouží jako placeholder a uživatel ho uvidí, pokud stránka musí čekat na nějaká data.
+Pokud potřebujete jednoduše vytvořit API endpoint, můžete využít soubor \textit{route.tsx}. Pro chyby je \textit{error.tsx}, pro neplatné cesty \textit{not-found.tsx}, a dokonce existuje i \textit{loading.tsx}, který slouží jako placeholder a uživatel ho uvidí, pokud stránka musí čekat na nějaká data.
 
 Pokud je část cesty dynamická, dá se umístit do složky, jejíž název je ohraničený hranatými závorkami. To se hodí například u uživatelských profilů. Jednoduché závorky zase slouží k logické organizaci, která se neprojeví v URL.
 
 \subsection*{Serverové a klientské komponenty}
 
-Pokud tvoříte komponentu, máte dvě možnosti, kde ji vykreslit\cite{NextJSS&CComponents} – na serveru\cite{NextJSServerComponents} nebo na klientovi\cite{NextJSClientComponents}. Obojí má své pro a proti. Na serveru můžete přímo volat do databáze, cachovat výsledky a použít je jinde, a posílat uživatelům již vygenerované stránky, takže nemusí čekat, než jim je React poskládá. Na druhou stranu zase nemůžete používat useState(), useEffect, poslouchat eventy, nebo přistupovat k DOMu a do prohlížeče. Mezi oběma způsoby je pomyslná síťová hranice, a je jen na Vás, kde si ji při vymýšlení architektury a stavby projektu stanovíte.
+Pokud tvoříte komponentu, máte dvě možnosti, kde ji vykreslit\cite{NextJSS&CComponents} – na serveru\cite{NextJSServerComponents} nebo na klientovi\cite{NextJSClientComponents}. Obojí má své pro a proti. Na serveru můžete používat asynchronní operace a volat tak na API přímo v komponentách, nicméně nelze pracovat se stavem a hooky jako \texttt{useState()} a \texttt{useEffect()}.
+
+Klientské komponenty se chovají stejně jako v Reactu, jen s tím rozdílem, že se jejich prvotní stav předkreslí na serveru a následně jsou odeslány do prohlížeče, kde se jich React ujme a pomocí tzv. hydratace jim vrátí interaktivitu. Díky tomu na stránku nemusíte čekat a i s vypnutým JavaScriptem vidíte alespoň její statický obsah.\cite{NextHydration}
 
 \subsection*{Optimalizace fontů a obrázků}
 
-Pokud používáte na své stránce jakýkoliv font, co není v základu (například od Googlu), ukáže se stránka na klientovi nejdříve se základním fontem, a až poté, co se z dané adresy stáhne, se aplikuje ten správný. To může způsobit posun elementů, protože každý font má trochu jinou velikost a vzhled. A Google, ta samá firma, od které font nejspíš máte, vám pak může snížit celkové SEO hodnocení a zobrazovat Vaši stránku méně lidem. Next.js ale fonty stáhne již při kompilaci a pošle Vám je spolu s celou stránkou, takže je prohlížeč použije ihned.
+Pokud používáte na své stránce jakýkoliv font, který není v základu (například od Googlu), ukáže se stránka na klientovi nejdříve se základním fontem, a až poté, co se z dané adresy stáhne, se aplikuje ten správný. To může způsobit posun elementů, protože každý font má trochu jinou velikost a vzhled. A Google, ta samá firma, od které font nejspíš máte, vám pak může snížit celkové SEO hodnocení a zobrazovat vaši stránku méně lidem. Next.js ale fonty stáhne již při bundlingu a pošle vám je spolu s celou stránkou, takže je prohlížeč použije ihned.
 
-Stejně jako fonty musíte mít optimalizované i obrázky. Na ty má Next.js vlastní <Image /> komponentu. Ta zabraňuje posunu elementů při načítání stránky, posílá velikosti obrázků úměrné k velikosti použitého displeje, šetří výkon tím, že obrázky načte až poté, co jsou vidět na displeji, a snaží se je všechny odesílat v moderních formátech, jako WebP nebo AVIF.
+Stejně jako fonty musíte mít optimalizované i obrázky. Na ty má Next.js vlastní \texttt{<Image/>} komponentu. Ta zabraňuje posunu elementů při načítání stránky, posílá velikosti obrázků úměrné k velikosti použitého displeje, šetří výkon tím, že obrázky načte až poté, co jsou vidět na displeji, a snaží se je všechny odesílat v moderních formátech, jako WebP nebo AVIF.
 
 \subsection*{Streaming}
 
-Next.js podporuje i streaming, který znáte ze všech dnešních sociálních sítí. Jde o postupné posílání obsahu stránky, například při jejím posunutí. K aplikování na stránky stačí obalit danou komponentu pomocí <Suspense />. Na podobném principu funguje i již zmiňovaný loading.tsx, který <Suspense /> aplikuje na celý soubor. K této komponentě se váže i tzv. Partial loading, který kombinuje serverové a klientské renderování a časem má potenciál stát se standardním způsobem pro tvorbu stránek v tomto frameworku.
+Next.js podporuje i streaming, který znáte ze všech dnešních sociálních sítí. Jde o postupné posílání obsahu stránky, například při jejím posunutí. K aplikování na stránky stačí obalit danou komponentu pomocí \texttt{<Suspense/>} komponenty. Na podobném principu funguje i již zmiňovaný \textit{loading.tsx}, který \texttt{<Suspense/>} aplikuje na celý soubor. K této komponentě se váže i tzv. Partial loading, který kombinuje serverové a klientské renderování a časem má potenciál stát se standardním způsobem pro tvorbu stránek v tomto frameworku.
 
 \subsection*{Hooky}
 
-Existuje několik hooků. Pro získání aktuální cesty se používá usePathname(). To můžete použít například u zvýraznění aktuálního odkazu v menu. UseSearchParams() zase podle klíče v URL najde jeho hodnotu (třeba id) a useRouter() umožní přistupovat k routeru a měnit URL nebo stránku znovu načíst.
+Existuje několik hooků. Pro získání aktuální cesty se používá \texttt{usePathname()}. To můžete použít například u zvýraznění aktuálního odkazu v menu. \texttt{UseSearchParams()} zase podle klíče v URL najde jeho hodnotu (třeba id) a \texttt{useRouter()} umožní přistupovat k routeru a měnit URL nebo stránku znovu načíst. Kromě hooků máte přístup i k hlavičkám požadavky a cookies.
+
+\subsection*{Metadata}
+Metadata jsou informace, které se obvykle vkládají do hlavičky a SEO roboti díky nim dokážou pochopit obsah stránky. Zatímco ve staré verzi frameworku jste mohli metadata vkládat přímo do \texttt{<Head/>} komponenty, nyní jdou jednoduše exportovat jako objekt skrze vestavěnou funkci.
+
+

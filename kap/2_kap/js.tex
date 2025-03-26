@@ -1,6 +1,6 @@
 \section{JavaScript}
 
-Nástup JavaScriptu umožnil webovým vývojářům udržovat na stránkách aktuální data a přidat interaktivní prvky, zlepšující uživatelský zážitek. 
+Nástup JavaScriptu umožnil webovým vývojářům udržovat na stránkách aktuální data a~přidat interaktivní prvky, zlepšující uživatelský zážitek. 
 
 Ačkoliv se to tak nemusí podle názvu zdát, JavaScript má s Javou jen pramálo společného. Vytvořil ho v roce 1995 během deseti dnů zaměstnanec firmy Netscape, tehdy ještě pod jménem Mocha a LiveScript. Java se do jména dostala až kvůli popularitě stejnojmenného jazyka. Standardy pro něj vyvíjí organizace Ecma International, podle níž se značí i jeho verze (ES5, ES6, \ldots).\cite{JSIntroduction}\cite{JSOrigins}\cite{JSHistory}
 
@@ -8,7 +8,7 @@ Protože se jedná o jediný jazyk, který umí prohlížeče číst, a zárove�
 
 JavaScript má dva typy proměnných – let (dá se měnit) a const (neměnná). Do nich lze přiřazovat různé zabudované typy jako boolean, number (64bitové desetinné číslo), bigInt, string, array, date, objekt a několik dalších. Existuje i tři prázdné typy, jako je \texttt{undefined} (bez přiřazené hodnoty), \texttt{null} (prázdá hodnota) a \texttt{NaN} (Not-a-Number, doslova \textit{není číslo}). Typy se nicméně kontrolují až při běhu, takže se na špatné přiřazení často přichází, až když je příliš pozdě.\cite{JSBasics}\cite{JSTypes}
 
-Pokud píšete podmínky, musíte dávat pozor na porovnávání. Dvě rovnítka porovnávají typy, tři zase hodnoty. Záměnou prvního rovnítka za vykřičník vznikne negace. $\&\&$ značí logický operátor AND a $||$ zase OR. Některé typy (undefined, null, NaN, nebo prázdné řetězce) se označují jako \textit{falsy} a v podmínkách reprezentují hodnotu \texttt{false}. Dále můžete používat ternary operátory ($x\ ?\ y : z$, pokud je $x$ pravda, vykoná se $y$, jinak $z$) nebo jeho zkrácenou verzi ($x\ \&\&\ y$, pokud je $x$ falsy, vykoná se $y$), které se převážně používá v Reactu pro podmíněné renderování.
+Pokud píšete podmínky, musíte dávat pozor na porovnávání. Dvě rovnítka porovnávají typy, tři zase hodnoty. Záměnou prvního rovnítka za vykřičník vznikne negace. $\&\&$ značí logický operátor AND a $||$ zase OR. Některé typy (undefined, null, NaN, nebo prázdné řetězce) se označují jako \textit{falsy} a v podmínkách reprezentují hodnotu \texttt{false}. Dále můžete používat ternary operátory ($x\ ?\ y : z$, pokud je $x$ pravda, vykoná se $y$, jinak $z$) nebo jeho zkrácenou verzi ($x\ \&\&\ y$, pokud je $x$ falsy, vykoná se $y$), která se převážně používá v~Reactu pro podmíněné renderování.
 
 Existuje i několik druhů cyklů. V obyčejném for cyklu nastavujete počáteční hodnotu, krok a podmínku, přičemž všechny argumenty jsou nepovinné. Nechybí ani podmíněný while a pro iteraci elementů v seznamu se nejlépe hodí forEach().
 

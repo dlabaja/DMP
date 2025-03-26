@@ -1,6 +1,6 @@
 \section{I18n a Localazy}
 
-I18n je zkratka slova Internationalization (mezi i a n je 18 písmen)\cite{I18nMeaning}. A přesně to budete potřebovat, pokud plánujete projekt posunout do zahraničí a přidat více než jeden jazyk. I na tohle existují frameworky. A ten nejpopulárnější se jmenuje i18next\cite{I18nextDocs}.
+I18n je zkratka slova Internationalization (mezi i a n je 18 písmen)\cite{I18nMeaning}. A přesně to budete potřebovat, pokud plánujete projekt posunout do zahraničí a přidat více než jeden jazyk. I~na tohle existují frameworky. A ten nejpopulárnější se jmenuje i18next\cite{I18nextDocs}.
 
 Lokalizace se do něj zapisují jako objekt, ve kterém má každý z jazyků svůj klíč. Klíč má v něm i každé slovo a jeho překlad reprezentuje hodnotu. Jeden klíč zároveň může mít pod sebou celou skupinu překladů, díky čemuž je můžete logicky řadit. Pokud je pak chcete použít v projektu, stačí nastavit aktuální jazyk a zavolat zabudovanou funkci \texttt{t()}, která přijímá jako parametr právě klíč. Pokud leží v nějaké podskupině, oddělují se jednotlivé skupiny tečkami.
 

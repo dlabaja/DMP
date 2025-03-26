@@ -5,7 +5,7 @@ Zhruba na stejné úrovni jako data jsou i konvertory. Ne vždy jsou totiž data
 
 Ještě výš se nachází námi zpracované metody pro práci s API. Jsou systematicky rozdělené do několika tříd podle místa použití, abych, pokud potřebuji pracovat s nastavením, nemusel importovat něco, co má navíc funkce pro získání nejnovějších cest, přihlášení uživatele, a vrácení posledních hodnocení na Googlu. Každá metoda přijímá kromě dat také parametr na úpravu požadavku, díky kterému můžu měnit jeho hlavičku, cookie, nebo zda chci, aby při chybě stránka nespadla, a já si tak mohl vyjímku odchytit sám.
 
-Každá z metod nakonec zavolá funkci importovanou z api.ts souboru. Tento soubor o délce přes čtyřicet tisíc řádků se automaticky generuje pomocí nástroje Swagger, a skrývá reálnou API implementaci, která je vlastně jen soubor všech možných HTTP požadavků, které fungují jako most mezi frontendem a backendem. Výš už pro mě cesta nevede.
+Každá z metod nakonec zavolá funkci importovanou z api.ts souboru. Tento soubor o~délce přes čtyřicet tisíc řádků se automaticky generuje pomocí nástroje Swagger, a skrývá reálnou API implementaci, která je vlastně jen soubor všech možných HTTP požadavků, které fungují jako most mezi frontendem a backendem. Výš už pro mě cesta nevede.
 
 Ve Storybooku je struktura trochu odlišná. API funkce se volají stále stejně, ale při načtení jakékoliv story se jejich původní implementace přepíší na mock. 
 Místo volání na server tak dostanu přímo naši datovou třídu, naplněnou falešnými hodnotami. Abychom alespoň částečně simulovali internetovou odezvu, každá z metod vrací data až po uplynutí doby 300 milisekund.

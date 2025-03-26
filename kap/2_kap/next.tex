@@ -16,7 +16,7 @@ Pokud je část cesty dynamická, dá se umístit do složky, jejíž název je 
 
 \subsection*{Serverové a klientské komponenty}
 
-Pokud tvoříte komponentu, máte dvě možnosti, kde ji vykreslit\cite{NextJSS&CComponents} – na serveru\cite{NextJSServerComponents} nebo na klientovi\cite{NextJSClientComponents}. Obojí má své pro a proti. Na serveru můžete používat asynchronní operace a volat tak na API přímo v komponentách, nicméně nelze pracovat se stavem a hooky jako \texttt{useState()} a \texttt{useEffect()}.
+Pokud tvoříte komponentu, máte dvě možnosti, kde ji vykreslit\cite{NextJSS&CComponents} – na serveru\cite{NextJSServerComponents} nebo na klientovi\cite{NextJSClientComponents}. Obojí má své pro a proti. Na serveru můžete používat asynchronní operace a~volat tak na API přímo v komponentách, nicméně nelze pracovat se stavem a hooky jako \texttt{useState()} a \texttt{useEffect()}.
 
 Klientské komponenty se chovají stejně jako v Reactu, jen s tím rozdílem, že se jejich prvotní stav předkreslí na serveru a následně jsou odeslány do prohlížeče, kde se jich React ujme a pomocí tzv. hydratace jim vrátí interaktivitu. Díky tomu na stránku nemusíte čekat a i s vypnutým JavaScriptem vidíte alespoň její statický obsah.\cite{NextHydration}
 
@@ -28,11 +28,11 @@ Stejně jako fonty musíte mít optimalizované i obrázky. Na ty má Next.js vl
 
 \subsection*{Streaming}
 
-Next.js podporuje i streaming, který znáte ze všech dnešních sociálních sítí. Jde o postupné posílání obsahu stránky, například při jejím posunutí. K aplikování na stránky stačí obalit danou komponentu pomocí \texttt{<Suspense/>} komponenty. Na podobném principu funguje i již zmiňovaný \textit{loading.tsx}, který \texttt{<Suspense/>} aplikuje na celý soubor. K této komponentě se váže i tzv. Partial loading, který kombinuje serverové a klientské renderování a časem má potenciál stát se standardním způsobem pro tvorbu stránek v tomto frameworku.
+Next.js podporuje i streaming, který znáte ze všech dnešních sociálních sítí. Jde o postupné posílání obsahu stránky, například při jejím posunutí. K aplikování na stránky stačí obalit danou komponentu pomocí \texttt{<Suspense/>} komponenty. Na podobném principu funguje i~již zmiňovaný \textit{loading.tsx}, který \texttt{<Suspense/>} aplikuje na celý soubor. K této komponentě se váže i tzv. Partial loading, který kombinuje serverové a klientské renderování a~časem má potenciál stát se standardním způsobem pro tvorbu stránek v tomto frameworku.
 
 \subsection*{Hooky}
 
-Existuje několik hooků. Pro získání aktuální cesty se používá \texttt{usePathname()}. To můžete použít například u zvýraznění aktuálního odkazu v menu. \texttt{UseSearchParams()} zase podle klíče v URL najde jeho hodnotu (třeba id) a \texttt{useRouter()} umožní přistupovat k routeru a měnit URL nebo stránku znovu načíst. Kromě hooků máte přístup i k hlavičkám požadavky a cookies.
+Existuje několik hooků. Pro získání aktuální cesty se používá \texttt{usePathname()}. To můžete použít například u zvýraznění aktuálního odkazu v menu. \texttt{UseSearchParams()} zase podle klíče v URL najde jeho hodnotu (třeba id) a \texttt{useRouter()} umožní přistupovat k~routeru a~měnit URL nebo stránku znovu načíst. Kromě hooků máte přístup i k hlavičkám požadavky a cookies.
 
 \subsection*{Metadata}
 Metadata jsou informace, které se obvykle vkládají do hlavičky a SEO roboti díky nim dokážou pochopit obsah stránky. Zatímco ve staré verzi frameworku jste mohli metadata vkládat přímo do \texttt{<Head/>} komponenty, nyní jdou jednoduše exportovat jako objekt skrze vestavěnou funkci.

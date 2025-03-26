@@ -18,139 +18,21 @@
 
 
 \refsection{0}
-  \datalist[entry]{none/global//global/global}
-    \entry{WorldeeInfo}{online}{}
-      \name{author}{1}{}{%
-        {{hash=59a38640e46d5da6893ba6f65d275e63}{%
-           family={Zapletal},
-           familyi={Z\bibinitperiod},
-           given={Tomáš},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{59a38640e46d5da6893ba6f65d275e63}
-      \strng{fullhash}{59a38640e46d5da6893ba6f65d275e63}
-      \strng{bibnamehash}{59a38640e46d5da6893ba6f65d275e63}
-      \strng{authorbibnamehash}{59a38640e46d5da6893ba6f65d275e63}
-      \strng{authornamehash}{59a38640e46d5da6893ba6f65d275e63}
-      \strng{authorfullhash}{59a38640e46d5da6893ba6f65d275e63}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{Internal source, ClickUp}
-      \field{note}{Unpublished}
-      \field{title}{Toto je Worldee}
-      \field{year}{2024}
-    \endentry
-    \entry{Worldee}{online}{}
-      \name{author}{1}{}{%
-        {{hash=318568a2ebf898e0bc5363ff5c2ab95c}{%
-           family={s.r.o.},
-           familyi={s\bibinitperiod},
-           given={We},
-           giveni={W\bibinitperiod},
-           prefix={travel\bibnamedelimb the\bibnamedelima world},
-           prefixi={t\bibinitperiod\bibinitdelim t\bibinitperiod\bibinitdelim w\bibinitperiod}}}%
-      }
-      \strng{namehash}{318568a2ebf898e0bc5363ff5c2ab95c}
-      \strng{fullhash}{318568a2ebf898e0bc5363ff5c2ab95c}
-      \strng{bibnamehash}{318568a2ebf898e0bc5363ff5c2ab95c}
-      \strng{authorbibnamehash}{318568a2ebf898e0bc5363ff5c2ab95c}
-      \strng{authornamehash}{318568a2ebf898e0bc5363ff5c2ab95c}
-      \strng{authorfullhash}{318568a2ebf898e0bc5363ff5c2ab95c}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Vyber si svůj způsob cestování}
-      \field{urlday}{25}
-      \field{urlmonth}{11}
-      \field{urlyear}{2024}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.worldee.com
-      \endverb
-      \verb{url}
-      \verb https://www.worldee.com
-      \endverb
-    \endentry
-    \entry{WorldeeKovy}{online}{}
-      \name{author}{1}{}{%
-        {{hash=9483ad720e9e5fc33d63b0d6553bcb63}{%
-           family={Kovy},
-           familyi={K\bibinitperiod}}}%
-      }
-      \strng{namehash}{9483ad720e9e5fc33d63b0d6553bcb63}
-      \strng{fullhash}{9483ad720e9e5fc33d63b0d6553bcb63}
-      \strng{bibnamehash}{9483ad720e9e5fc33d63b0d6553bcb63}
-      \strng{authorbibnamehash}{9483ad720e9e5fc33d63b0d6553bcb63}
-      \strng{authornamehash}{9483ad720e9e5fc33d63b0d6553bcb63}
-      \strng{authorfullhash}{9483ad720e9e5fc33d63b0d6553bcb63}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Ultimátní roadtrip Skotskem! w/Míra | KOVY}
-      \field{urlday}{25}
-      \field{urlmonth}{11}
-      \field{urlyear}{2024}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.youtube.com/watch?v=66TMsTKaIbE
-      \endverb
-      \verb{url}
-      \verb https://www.youtube.com/watch?v=66TMsTKaIbE
-      \endverb
-    \endentry
-    \entry{WorldeeInvestice}{online}{}
-      \name{author}{1}{}{%
-        {{hash=68e274660ecf859e7588e43466e614b1}{%
-           family={Magalhães},
-           familyi={M\bibinitperiod},
-           given={Filip},
-           giveni={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{68e274660ecf859e7588e43466e614b1}
-      \strng{fullhash}{68e274660ecf859e7588e43466e614b1}
-      \strng{bibnamehash}{68e274660ecf859e7588e43466e614b1}
-      \strng{authorbibnamehash}{68e274660ecf859e7588e43466e614b1}
-      \strng{authornamehash}{68e274660ecf859e7588e43466e614b1}
-      \strng{authorfullhash}{68e274660ecf859e7588e43466e614b1}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Sto milionů pro Worldee. Český cestovatelský startup nakopne nový investor, je jím Smička z Bazoše}
-      \field{urlday}{28}
-      \field{urlmonth}{9}
-      \field{urlyear}{2024}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.hrot24.cz/clanek/sto-milionu-pro-worldee-cestovatelsky-startup-nakopne-novy-investor-je-jim-smicka-z-bazose
-      \endverb
-      \verb{url}
-      \verb https://www.hrot24.cz/clanek/sto-milionu-pro-worldee-cestovatelsky-startup-nakopne-novy-investor-je-jim-smicka-z-bazose
-      \endverb
-    \endentry
+  \datalist[entry]{nty/global//global/global}
     \entry{Podnikani}{online}{}
       \name{author}{1}{}{%
-        {{hash=0a6691fe8af1e6366f669d7fb7f4792c}{%
-           family={AliaWeb},
-           familyi={A\bibinitperiod},
-           given={spol.\bibnamedelimi s\bibnamedelima r.o.},
-           giveni={s\bibinitperiod\bibinitdelim s\bibinitperiod\bibinitdelim r\bibinitperiod}}}%
+        {{hash=7bed4075bdb75356fb0a032db6bbfd3c}{%
+           family={{AliaWeb, spol. s r.o.}},
+           familyi={A\bibinitperiod}}}%
       }
-      \strng{namehash}{0a6691fe8af1e6366f669d7fb7f4792c}
-      \strng{fullhash}{0a6691fe8af1e6366f669d7fb7f4792c}
-      \strng{bibnamehash}{0a6691fe8af1e6366f669d7fb7f4792c}
-      \strng{authorbibnamehash}{0a6691fe8af1e6366f669d7fb7f4792c}
-      \strng{authornamehash}{0a6691fe8af1e6366f669d7fb7f4792c}
-      \strng{authorfullhash}{0a6691fe8af1e6366f669d7fb7f4792c}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \strng{namehash}{7bed4075bdb75356fb0a032db6bbfd3c}
+      \strng{fullhash}{7bed4075bdb75356fb0a032db6bbfd3c}
+      \strng{bibnamehash}{7bed4075bdb75356fb0a032db6bbfd3c}
+      \strng{authorbibnamehash}{7bed4075bdb75356fb0a032db6bbfd3c}
+      \strng{authornamehash}{7bed4075bdb75356fb0a032db6bbfd3c}
+      \strng{authorfullhash}{7bed4075bdb75356fb0a032db6bbfd3c}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{We travel the world s.r.o.}
@@ -166,97 +48,35 @@
       \verb https://www.podnikani.cz/08351864/we-travel-the-world-sro
       \endverb
     \endentry
-    \entry{CSSFlexbox}{online}{}
+    \entry{JSFunctionalProgramming}{online}{}
       \name{author}{1}{}{%
-        {{hash=d33f3a40f4849e0684f177ef73b62f3e}{%
-           family={Coyier},
-           familyi={C\bibinitperiod},
-           given={Chris},
-           giveni={C\bibinitperiod}}}%
+        {{hash=5dd7a91927622eae8101516f80aaa1d5}{%
+           family={Aryan},
+           familyi={A\bibinitperiod},
+           given={Avi},
+           giveni={A\bibinitperiod}}}%
       }
-      \strng{namehash}{d33f3a40f4849e0684f177ef73b62f3e}
-      \strng{fullhash}{d33f3a40f4849e0684f177ef73b62f3e}
-      \strng{bibnamehash}{d33f3a40f4849e0684f177ef73b62f3e}
-      \strng{authorbibnamehash}{d33f3a40f4849e0684f177ef73b62f3e}
-      \strng{authornamehash}{d33f3a40f4849e0684f177ef73b62f3e}
-      \strng{authorfullhash}{d33f3a40f4849e0684f177ef73b62f3e}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \strng{namehash}{5dd7a91927622eae8101516f80aaa1d5}
+      \strng{fullhash}{5dd7a91927622eae8101516f80aaa1d5}
+      \strng{bibnamehash}{5dd7a91927622eae8101516f80aaa1d5}
+      \strng{authorbibnamehash}{5dd7a91927622eae8101516f80aaa1d5}
+      \strng{authornamehash}{5dd7a91927622eae8101516f80aaa1d5}
+      \strng{authorfullhash}{5dd7a91927622eae8101516f80aaa1d5}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{CSS Flexbox Layout Guide}
-      \field{urlday}{14}
-      \field{urlmonth}{9}
-      \field{urlyear}{2024}
-      \field{year}{2024}
+      \field{title}{Introduction to Functional Programming: JavaScript Paradigms}
+      \field{urlday}{22}
+      \field{urlmonth}{2}
+      \field{urlyear}{2025}
+      \field{year}{2025}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://css-tricks.com/snippets/css/a-guide-to-flexbox
+      \verb https://www.toptal.com/javascript/functional-programming-javascript
       \endverb
       \verb{url}
-      \verb https://css-tricks.com/snippets/css/a-guide-to-flexbox
-      \endverb
-    \endentry
-    \entry{JSIntroduction}{online}{}
-      \name{author}{1}{}{%
-        {{hash=5921cc97f07da91d5ea48cbf66955405}{%
-           family={Kantor},
-           familyi={K\bibinitperiod},
-           given={Ilya},
-           giveni={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{5921cc97f07da91d5ea48cbf66955405}
-      \strng{fullhash}{5921cc97f07da91d5ea48cbf66955405}
-      \strng{bibnamehash}{5921cc97f07da91d5ea48cbf66955405}
-      \strng{authorbibnamehash}{5921cc97f07da91d5ea48cbf66955405}
-      \strng{authornamehash}{5921cc97f07da91d5ea48cbf66955405}
-      \strng{authorfullhash}{5921cc97f07da91d5ea48cbf66955405}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{An Introduction to JavaScript}
-      \field{urlday}{11}
-      \field{urlmonth}{8}
-      \field{urlyear}{2024}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://javascript.info/intro
-      \endverb
-      \verb{url}
-      \verb https://javascript.info/intro
-      \endverb
-    \endentry
-    \entry{JSOrigins}{online}{}
-      \name{author}{1}{}{%
-        {{hash=83513a1e07266e31ff307edeaa58b921}{%
-           family={Young},
-           familyi={Y\bibinitperiod},
-           given={Sullivan},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{83513a1e07266e31ff307edeaa58b921}
-      \strng{fullhash}{83513a1e07266e31ff307edeaa58b921}
-      \strng{bibnamehash}{83513a1e07266e31ff307edeaa58b921}
-      \strng{authorbibnamehash}{83513a1e07266e31ff307edeaa58b921}
-      \strng{authornamehash}{83513a1e07266e31ff307edeaa58b921}
-      \strng{authorfullhash}{83513a1e07266e31ff307edeaa58b921}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{What really is JavaScript? (Origins and The Basics)}
-      \field{urlday}{28}
-      \field{urlmonth}{9}
-      \field{urlyear}{2024}
-      \field{year}{2022}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://medium.com/@sullivanyoung/what-really-is-javascript-origins-and-the-basics-1b4914f355ed
-      \endverb
-      \verb{url}
-      \verb https://medium.com/@sullivanyoung/what-really-is-javascript-origins-and-the-basics-1b4914f355ed
+      \verb https://www.toptal.com/javascript/functional-programming-javascript
       \endverb
     \endentry
     \entry{JSHistory}{online}{}
@@ -271,8 +91,8 @@
       \strng{authorbibnamehash}{8fdcbf44bc8ec956f55bb83800522da9}
       \strng{authornamehash}{8fdcbf44bc8ec956f55bb83800522da9}
       \strng{authorfullhash}{8fdcbf44bc8ec956f55bb83800522da9}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{a}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{History of JavaScript}
@@ -286,6 +106,69 @@
       \endverb
       \verb{url}
       \verb https://www.geeksforgeeks.org/history-of-javascript
+      \endverb
+    \endentry
+    \entry{WhatIsAnEnum}{online}{}
+      \name{author}{1}{}{%
+        {{hash=0b5c90fed25bb933b938e1b917503c58}{%
+           family={Bolton},
+           familyi={B\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{0b5c90fed25bb933b938e1b917503c58}
+      \strng{fullhash}{0b5c90fed25bb933b938e1b917503c58}
+      \strng{bibnamehash}{0b5c90fed25bb933b938e1b917503c58}
+      \strng{authorbibnamehash}{0b5c90fed25bb933b938e1b917503c58}
+      \strng{authornamehash}{0b5c90fed25bb933b938e1b917503c58}
+      \strng{authorfullhash}{0b5c90fed25bb933b938e1b917503c58}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What Is an Enum in Programming Languages?}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.thoughtco.com/what-is-an-enum-958326
+      \endverb
+      \verb{url}
+      \verb https://www.thoughtco.com/what-is-an-enum-958326
+      \endverb
+    \endentry
+    \entry{JSFunctions}{online}{}
+      \name{author}{1}{}{%
+        {{hash=5f69f46e482f6a40a09f01b00eb908c9}{%
+           family={contributors},
+           familyi={c\bibinitperiod},
+           given={MDN},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f69f46e482f6a40a09f01b00eb908c9}
+      \strng{fullhash}{5f69f46e482f6a40a09f01b00eb908c9}
+      \strng{bibnamehash}{5f69f46e482f6a40a09f01b00eb908c9}
+      \strng{authorbibnamehash}{5f69f46e482f6a40a09f01b00eb908c9}
+      \strng{authornamehash}{5f69f46e482f6a40a09f01b00eb908c9}
+      \strng{authorfullhash}{5f69f46e482f6a40a09f01b00eb908c9}
+      \field{extraname}{1}
+      \field{sortinit}{c}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Functions}
+      \field{urlday}{7}
+      \field{urlmonth}{10}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions
       \endverb
     \endentry
     \entry{JSBasics}{online}{}
@@ -302,9 +185,9 @@
       \strng{authorbibnamehash}{5f69f46e482f6a40a09f01b00eb908c9}
       \strng{authornamehash}{5f69f46e482f6a40a09f01b00eb908c9}
       \strng{authorfullhash}{5f69f46e482f6a40a09f01b00eb908c9}
-      \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extraname}{2}
+      \field{sortinit}{c}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{JavaScript basics}
@@ -334,9 +217,9 @@
       \strng{authorbibnamehash}{5f69f46e482f6a40a09f01b00eb908c9}
       \strng{authornamehash}{5f69f46e482f6a40a09f01b00eb908c9}
       \strng{authorfullhash}{5f69f46e482f6a40a09f01b00eb908c9}
-      \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{extraname}{3}
+      \field{sortinit}{c}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{JavaScript data types and data structures}
@@ -350,450 +233,6 @@
       \endverb
       \verb{url}
       \verb https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
-      \endverb
-    \endentry
-    \entry{JSFunctions}{online}{}
-      \name{author}{1}{}{%
-        {{hash=5f69f46e482f6a40a09f01b00eb908c9}{%
-           family={contributors},
-           familyi={c\bibinitperiod},
-           given={MDN},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{5f69f46e482f6a40a09f01b00eb908c9}
-      \strng{fullhash}{5f69f46e482f6a40a09f01b00eb908c9}
-      \strng{bibnamehash}{5f69f46e482f6a40a09f01b00eb908c9}
-      \strng{authorbibnamehash}{5f69f46e482f6a40a09f01b00eb908c9}
-      \strng{authornamehash}{5f69f46e482f6a40a09f01b00eb908c9}
-      \strng{authorfullhash}{5f69f46e482f6a40a09f01b00eb908c9}
-      \field{extraname}{3}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Functions}
-      \field{urlday}{7}
-      \field{urlmonth}{10}
-      \field{urlyear}{2024}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions
-      \endverb
-      \verb{url}
-      \verb https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions
-      \endverb
-    \endentry
-    \entry{JSFunctionalProgramming}{online}{}
-      \name{author}{1}{}{%
-        {{hash=5dd7a91927622eae8101516f80aaa1d5}{%
-           family={Aryan},
-           familyi={A\bibinitperiod},
-           given={Avi},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{5dd7a91927622eae8101516f80aaa1d5}
-      \strng{fullhash}{5dd7a91927622eae8101516f80aaa1d5}
-      \strng{bibnamehash}{5dd7a91927622eae8101516f80aaa1d5}
-      \strng{authorbibnamehash}{5dd7a91927622eae8101516f80aaa1d5}
-      \strng{authornamehash}{5dd7a91927622eae8101516f80aaa1d5}
-      \strng{authorfullhash}{5dd7a91927622eae8101516f80aaa1d5}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Introduction to Functional Programming: JavaScript Paradigms}
-      \field{urlday}{22}
-      \field{urlmonth}{2}
-      \field{urlyear}{2025}
-      \field{year}{2025}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.toptal.com/javascript/functional-programming-javascript
-      \endverb
-      \verb{url}
-      \verb https://www.toptal.com/javascript/functional-programming-javascript
-      \endverb
-    \endentry
-    \entry{TSGenerics}{online}{}
-      \name{author}{1}{}{%
-        {{hash=bf692b9b128a62a718ae9d2f5598b7c8}{%
-           family={contributors},
-           familyi={c\bibinitperiod},
-           given={TypeScript},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{bf692b9b128a62a718ae9d2f5598b7c8}
-      \strng{fullhash}{bf692b9b128a62a718ae9d2f5598b7c8}
-      \strng{bibnamehash}{bf692b9b128a62a718ae9d2f5598b7c8}
-      \strng{authorbibnamehash}{bf692b9b128a62a718ae9d2f5598b7c8}
-      \strng{authornamehash}{bf692b9b128a62a718ae9d2f5598b7c8}
-      \strng{authorfullhash}{bf692b9b128a62a718ae9d2f5598b7c8}
-      \field{extraname}{4}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Generics}
-      \field{urlday}{9}
-      \field{urlmonth}{10}
-      \field{urlyear}{2024}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.typescriptlang.org/docs/handbook/2/generics.html
-      \endverb
-      \verb{url}
-      \verb https://www.typescriptlang.org/docs/handbook/2/generics.html
-      \endverb
-    \endentry
-    \entry{WhatIsAnEnum}{online}{}
-      \name{author}{1}{}{%
-        {{hash=0b5c90fed25bb933b938e1b917503c58}{%
-           family={Bolton},
-           familyi={B\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{0b5c90fed25bb933b938e1b917503c58}
-      \strng{fullhash}{0b5c90fed25bb933b938e1b917503c58}
-      \strng{bibnamehash}{0b5c90fed25bb933b938e1b917503c58}
-      \strng{authorbibnamehash}{0b5c90fed25bb933b938e1b917503c58}
-      \strng{authornamehash}{0b5c90fed25bb933b938e1b917503c58}
-      \strng{authorfullhash}{0b5c90fed25bb933b938e1b917503c58}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{What Is an Enum in Programming Languages?}
-      \field{urlday}{14}
-      \field{urlmonth}{8}
-      \field{urlyear}{2024}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.thoughtco.com/what-is-an-enum-958326
-      \endverb
-      \verb{url}
-      \verb https://www.thoughtco.com/what-is-an-enum-958326
-      \endverb
-    \endentry
-    \entry{Sass}{online}{}
-      \name{author}{1}{}{%
-        {{hash=e2ceeea38f8620383cfbd3e99c5c0cd8}{%
-           family={contributors},
-           familyi={c\bibinitperiod},
-           given={Wikipedia},
-           giveni={W\bibinitperiod}}}%
-      }
-      \strng{namehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
-      \strng{fullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
-      \strng{bibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
-      \strng{authorbibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
-      \strng{authornamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
-      \strng{authorfullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
-      \field{extraname}{5}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Sass (style sheet language)}
-      \field{urlday}{14}
-      \field{urlmonth}{8}
-      \field{urlyear}{2024}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/Sass_(style_sheet_language)
-      \endverb
-      \verb{url}
-      \verb https://en.wikipedia.org/wiki/Sass_(style_sheet_language)
-      \endverb
-    \endentry
-    \entry{Less}{online}{}
-      \name{author}{1}{}{%
-        {{hash=e2ceeea38f8620383cfbd3e99c5c0cd8}{%
-           family={contributors},
-           familyi={c\bibinitperiod},
-           given={Wikipedia},
-           giveni={W\bibinitperiod}}}%
-      }
-      \strng{namehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
-      \strng{fullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
-      \strng{bibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
-      \strng{authorbibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
-      \strng{authornamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
-      \strng{authorfullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
-      \field{extraname}{6}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Less (style sheet language)}
-      \field{urlday}{14}
-      \field{urlmonth}{8}
-      \field{urlyear}{2024}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/Less_(style_sheet_language)
-      \endverb
-      \verb{url}
-      \verb https://en.wikipedia.org/wiki/Less_(style_sheet_language)
-      \endverb
-    \endentry
-    \entry{CssModules}{online}{}
-      \name{author}{1}{}{%
-        {{hash=3867b970d122d7b3a15ae4f5c5f9dc50}{%
-           family={css-modules},
-           familyi={c\bibinithyphendelim m\bibinitperiod}}}%
-      }
-      \strng{namehash}{3867b970d122d7b3a15ae4f5c5f9dc50}
-      \strng{fullhash}{3867b970d122d7b3a15ae4f5c5f9dc50}
-      \strng{bibnamehash}{3867b970d122d7b3a15ae4f5c5f9dc50}
-      \strng{authorbibnamehash}{3867b970d122d7b3a15ae4f5c5f9dc50}
-      \strng{authornamehash}{3867b970d122d7b3a15ae4f5c5f9dc50}
-      \strng{authorfullhash}{3867b970d122d7b3a15ae4f5c5f9dc50}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{CSS Modules}
-      \field{urlday}{14}
-      \field{urlmonth}{8}
-      \field{urlyear}{2024}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://github.com/css-modules/css-modules
-      \endverb
-      \verb{url}
-      \verb https://github.com/css-modules/css-modules
-      \endverb
-    \endentry
-    \entry{Tailwind}{online}{}
-      \name{author}{1}{}{%
-        {{hash=d37590cab97ef9a035c956cd0a068412}{%
-           family={Inc.},
-           familyi={I\bibinitperiod},
-           given={Tailwind\bibnamedelima Labs},
-           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-      }
-      \strng{namehash}{d37590cab97ef9a035c956cd0a068412}
-      \strng{fullhash}{d37590cab97ef9a035c956cd0a068412}
-      \strng{bibnamehash}{d37590cab97ef9a035c956cd0a068412}
-      \strng{authorbibnamehash}{d37590cab97ef9a035c956cd0a068412}
-      \strng{authornamehash}{d37590cab97ef9a035c956cd0a068412}
-      \strng{authorfullhash}{d37590cab97ef9a035c956cd0a068412}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Tailwind CSS - Rapidly build modern websites without ever leaving your HTML.}
-      \field{urlday}{26}
-      \field{urlmonth}{2}
-      \field{urlyear}{2025}
-      \field{year}{2025}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://tailwindcss.com/
-      \endverb
-      \verb{url}
-      \verb https://tailwindcss.com/
-      \endverb
-    \endentry
-    \entry{JSX}{online}{}
-      \name{author}{1}{}{%
-        {{hash=ad34a9d5d87691c743dc42cbc5e8b783}{%
-           family={Sanity},
-           familyi={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{ad34a9d5d87691c743dc42cbc5e8b783}
-      \strng{fullhash}{ad34a9d5d87691c743dc42cbc5e8b783}
-      \strng{bibnamehash}{ad34a9d5d87691c743dc42cbc5e8b783}
-      \strng{authorbibnamehash}{ad34a9d5d87691c743dc42cbc5e8b783}
-      \strng{authornamehash}{ad34a9d5d87691c743dc42cbc5e8b783}
-      \strng{authorfullhash}{ad34a9d5d87691c743dc42cbc5e8b783}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{JSX definition}
-      \field{urlday}{4}
-      \field{urlmonth}{10}
-      \field{urlyear}{2024}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.sanity.io/glossary/jsx
-      \endverb
-      \verb{url}
-      \verb https://www.sanity.io/glossary/jsx
-      \endverb
-    \endentry
-    \entry{ReactState}{online}{}
-      \name{author}{2}{}{%
-        {{hash=12ff8f399ae7ef38b1c0ce484764c90c}{%
-           family={team},
-           familyi={t\bibinitperiod},
-           given={React},
-           giveni={R\bibinitperiod}}}%
-        {{hash=dbe35e658c31679494d9c8dc22f51be1}{%
-           family={contributors},
-           familyi={c\bibinitperiod},
-           prefix={external},
-           prefixi={e\bibinitperiod}}}%
-      }
-      \strng{namehash}{a9f5ca9dd6a369c609dc155a96bbfb0a}
-      \strng{fullhash}{a9f5ca9dd6a369c609dc155a96bbfb0a}
-      \strng{bibnamehash}{a9f5ca9dd6a369c609dc155a96bbfb0a}
-      \strng{authorbibnamehash}{a9f5ca9dd6a369c609dc155a96bbfb0a}
-      \strng{authornamehash}{a9f5ca9dd6a369c609dc155a96bbfb0a}
-      \strng{authorfullhash}{a9f5ca9dd6a369c609dc155a96bbfb0a}
-      \field{extraname}{1}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{State: A Component's Memory – React}
-      \field{urlday}{14}
-      \field{urlmonth}{8}
-      \field{urlyear}{2024}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://react.dev/learn/state-a-components-memory
-      \endverb
-      \verb{url}
-      \verb https://react.dev/learn/state-a-components-memory
-      \endverb
-    \endentry
-    \entry{UseRef}{online}{}
-      \name{author}{2}{}{%
-        {{hash=12ff8f399ae7ef38b1c0ce484764c90c}{%
-           family={team},
-           familyi={t\bibinitperiod},
-           given={React},
-           giveni={R\bibinitperiod}}}%
-        {{hash=dbe35e658c31679494d9c8dc22f51be1}{%
-           family={contributors},
-           familyi={c\bibinitperiod},
-           prefix={external},
-           prefixi={e\bibinitperiod}}}%
-      }
-      \strng{namehash}{a9f5ca9dd6a369c609dc155a96bbfb0a}
-      \strng{fullhash}{a9f5ca9dd6a369c609dc155a96bbfb0a}
-      \strng{bibnamehash}{a9f5ca9dd6a369c609dc155a96bbfb0a}
-      \strng{authorbibnamehash}{a9f5ca9dd6a369c609dc155a96bbfb0a}
-      \strng{authornamehash}{a9f5ca9dd6a369c609dc155a96bbfb0a}
-      \strng{authorfullhash}{a9f5ca9dd6a369c609dc155a96bbfb0a}
-      \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{useRef – React}
-      \field{urlday}{14}
-      \field{urlmonth}{8}
-      \field{urlyear}{2024}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://react.dev/reference/react/useRef
-      \endverb
-      \verb{url}
-      \verb https://react.dev/reference/react/useRef
-      \endverb
-    \endentry
-    \entry{ReactDeepDive}{online}{}
-      \name{author}{1}{}{%
-        {{hash=eb936a71d539c7efea999a98af30d713}{%
-           family={FrontStart},
-           familyi={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{eb936a71d539c7efea999a98af30d713}
-      \strng{fullhash}{eb936a71d539c7efea999a98af30d713}
-      \strng{bibnamehash}{eb936a71d539c7efea999a98af30d713}
-      \strng{authorbibnamehash}{eb936a71d539c7efea999a98af30d713}
-      \strng{authornamehash}{eb936a71d539c7efea999a98af30d713}
-      \strng{authorfullhash}{eb936a71d539c7efea999a98af30d713}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{How React ACTUALLY works (DEEP DIVE 2023)}
-      \field{urlday}{2}
-      \field{urlmonth}{11}
-      \field{urlyear}{2024}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.youtube.com/watch?v=za2FZ8QCE18
-      \endverb
-      \verb{url}
-      \verb https://www.youtube.com/watch?v=za2FZ8QCE18
-      \endverb
-    \endentry
-    \entry{VirtualDOM}{online}{}
-      \name{author}{1}{}{%
-        {{hash=169789707093f80ce5d05a98e773f7a8}{%
-           family={tv},
-           familyi={t\bibinitperiod},
-           given={PurelyFunctional},
-           giveni={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{169789707093f80ce5d05a98e773f7a8}
-      \strng{fullhash}{169789707093f80ce5d05a98e773f7a8}
-      \strng{bibnamehash}{169789707093f80ce5d05a98e773f7a8}
-      \strng{authorbibnamehash}{169789707093f80ce5d05a98e773f7a8}
-      \strng{authornamehash}{169789707093f80ce5d05a98e773f7a8}
-      \strng{authorfullhash}{169789707093f80ce5d05a98e773f7a8}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{React and the Virtual DOM}
-      \field{urlday}{2}
-      \field{urlmonth}{11}
-      \field{urlyear}{2024}
-      \field{year}{2015}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.youtube.com/watch?v=BYbgopx44vo
-      \endverb
-      \verb{url}
-      \verb https://www.youtube.com/watch?v=BYbgopx44vo
-      \endverb
-    \endentry
-    \entry{StateManagementLibs}{online}{}
-      \name{author}{1}{}{%
-        {{hash=66fbf4ace052cec5b3416f8335147103}{%
-           family={Kugell},
-           familyi={K\bibinitperiod},
-           given={Alex},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{66fbf4ace052cec5b3416f8335147103}
-      \strng{fullhash}{66fbf4ace052cec5b3416f8335147103}
-      \strng{bibnamehash}{66fbf4ace052cec5b3416f8335147103}
-      \strng{authorbibnamehash}{66fbf4ace052cec5b3416f8335147103}
-      \strng{authornamehash}{66fbf4ace052cec5b3416f8335147103}
-      \strng{authorfullhash}{66fbf4ace052cec5b3416f8335147103}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{7 Top React State Management Libraries}
-      \field{urlday}{18}
-      \field{urlmonth}{8}
-      \field{urlyear}{2024}
-      \field{year}{2022}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://trio.dev/7-top-react-state-management-libraries
-      \endverb
-      \verb{url}
-      \verb https://trio.dev/7-top-react-state-management-libraries
       \endverb
     \endentry
     \entry{MobXComputed}{online}{}
@@ -810,9 +249,9 @@
       \strng{authorbibnamehash}{47e468212a748f28ec17bef51e1e1dc1}
       \strng{authornamehash}{47e468212a748f28ec17bef51e1e1dc1}
       \strng{authorfullhash}{47e468212a748f28ec17bef51e1e1dc1}
-      \field{extraname}{7}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{extraname}{4}
+      \field{sortinit}{c}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Deriving information with computeds}
@@ -826,39 +265,6 @@
       \endverb
       \verb{url}
       \verb https://mobx.js.org/computeds.html
-      \endverb
-    \endentry
-    \entry{WhatIsAPI}{online}{}
-      \name{author}{1}{}{%
-        {{hash=b17fe2a363178a377427700a371da1d3}{%
-           family={Writers},
-           familyi={W\bibinitperiod},
-           given={ByteScout\bibnamedelima Team},
-           giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod},
-           prefix={of},
-           prefixi={o\bibinitperiod}}}%
-      }
-      \strng{namehash}{b17fe2a363178a377427700a371da1d3}
-      \strng{fullhash}{b17fe2a363178a377427700a371da1d3}
-      \strng{bibnamehash}{b17fe2a363178a377427700a371da1d3}
-      \strng{authorbibnamehash}{b17fe2a363178a377427700a371da1d3}
-      \strng{authornamehash}{b17fe2a363178a377427700a371da1d3}
-      \strng{authorfullhash}{b17fe2a363178a377427700a371da1d3}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{What is API and why it exists?}
-      \field{urlday}{21}
-      \field{urlmonth}{8}
-      \field{urlyear}{2024}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://bytescout.com/blog/2019/03/what-is-api-and-why-it-exists.html
-      \endverb
-      \verb{url}
-      \verb https://bytescout.com/blog/2019/03/what-is-api-and-why-it-exists.html
       \endverb
     \endentry
     \entry{Mocks}{online}{}
@@ -875,9 +281,9 @@
       \strng{authorbibnamehash}{adb4c2bbd1dfd2e746611ad0af1ff2d7}
       \strng{authornamehash}{adb4c2bbd1dfd2e746611ad0af1ff2d7}
       \strng{authorfullhash}{adb4c2bbd1dfd2e746611ad0af1ff2d7}
-      \field{extraname}{8}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extraname}{5}
+      \field{sortinit}{c}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Mocking modules}
@@ -893,65 +299,36 @@
       \verb https://storybook.js.org/docs/writing-stories/mocking-data-and-modules/mocking-modules
       \endverb
     \endentry
-    \entry{Webpack}{online}{}
+    \entry{TSGenerics}{online}{}
       \name{author}{1}{}{%
-        {{hash=e2ceeea38f8620383cfbd3e99c5c0cd8}{%
+        {{hash=bf692b9b128a62a718ae9d2f5598b7c8}{%
            family={contributors},
            familyi={c\bibinitperiod},
-           given={Wikipedia},
-           giveni={W\bibinitperiod}}}%
+           given={TypeScript},
+           giveni={T\bibinitperiod}}}%
       }
-      \strng{namehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
-      \strng{fullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
-      \strng{bibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
-      \strng{authorbibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
-      \strng{authornamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
-      \strng{authorfullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
-      \field{extraname}{9}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \strng{namehash}{bf692b9b128a62a718ae9d2f5598b7c8}
+      \strng{fullhash}{bf692b9b128a62a718ae9d2f5598b7c8}
+      \strng{bibnamehash}{bf692b9b128a62a718ae9d2f5598b7c8}
+      \strng{authorbibnamehash}{bf692b9b128a62a718ae9d2f5598b7c8}
+      \strng{authornamehash}{bf692b9b128a62a718ae9d2f5598b7c8}
+      \strng{authorfullhash}{bf692b9b128a62a718ae9d2f5598b7c8}
+      \field{extraname}{6}
+      \field{sortinit}{c}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Webpack}
-      \field{urlday}{18}
-      \field{urlmonth}{8}
+      \field{title}{Generics}
+      \field{urlday}{9}
+      \field{urlmonth}{10}
       \field{urlyear}{2024}
       \field{year}{2024}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://en.wikipedia.org/wiki/Webpack
+      \verb https://www.typescriptlang.org/docs/handbook/2/generics.html
       \endverb
       \verb{url}
-      \verb https://en.wikipedia.org/wiki/Webpack
-      \endverb
-    \endentry
-    \entry{WebpackFireship}{online}{}
-      \name{author}{1}{}{%
-        {{hash=62bd5797e7e7ccbf4ce403e62d6b7e49}{%
-           family={Fireship},
-           familyi={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{62bd5797e7e7ccbf4ce403e62d6b7e49}
-      \strng{fullhash}{62bd5797e7e7ccbf4ce403e62d6b7e49}
-      \strng{bibnamehash}{62bd5797e7e7ccbf4ce403e62d6b7e49}
-      \strng{authorbibnamehash}{62bd5797e7e7ccbf4ce403e62d6b7e49}
-      \strng{authornamehash}{62bd5797e7e7ccbf4ce403e62d6b7e49}
-      \strng{authorfullhash}{62bd5797e7e7ccbf4ce403e62d6b7e49}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Module Bundlers Explained... Webpack, Rollup, Parcel, and Snowpack}
-      \field{urlday}{2}
-      \field{urlmonth}{11}
-      \field{urlyear}{2024}
-      \field{year}{2020}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.youtube.com/watch?v=5IG4UmULyoA
-      \endverb
-      \verb{url}
-      \verb https://www.youtube.com/watch?v=5IG4UmULyoA
+      \verb https://www.typescriptlang.org/docs/handbook/2/generics.html
       \endverb
     \endentry
     \entry{WebpackConcepts}{online}{}
@@ -969,8 +346,8 @@
       \strng{authornamehash}{3347f0eba478ea077d32b454625cc28d}
       \strng{authorfullhash}{3347f0eba478ea077d32b454625cc28d}
       \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Concepts}
@@ -984,37 +361,6 @@
       \endverb
       \verb{url}
       \verb https://webpack.js.org/concepts/
-      \endverb
-    \endentry
-    \entry{WebpackFounder}{online}{}
-      \name{author}{1}{}{%
-        {{hash=4cf715b1987a8f0a93d9b720b5cfac0b}{%
-           family={Talks},
-           familyi={T\bibinitperiod},
-           given={Web\bibnamedelima Tech},
-           giveni={W\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-      }
-      \strng{namehash}{4cf715b1987a8f0a93d9b720b5cfac0b}
-      \strng{fullhash}{4cf715b1987a8f0a93d9b720b5cfac0b}
-      \strng{bibnamehash}{4cf715b1987a8f0a93d9b720b5cfac0b}
-      \strng{authorbibnamehash}{4cf715b1987a8f0a93d9b720b5cfac0b}
-      \strng{authornamehash}{4cf715b1987a8f0a93d9b720b5cfac0b}
-      \strng{authorfullhash}{4cf715b1987a8f0a93d9b720b5cfac0b}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Webpack founder Tobias Koppers demos bundling live by hand}
-      \field{urlday}{18}
-      \field{urlmonth}{8}
-      \field{urlyear}{2024}
-      \field{year}{2018}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.youtube.com/watch?v=UNMkLHzofQI
-      \endverb
-      \verb{url}
-      \verb https://www.youtube.com/watch?v=UNMkLHzofQI
       \endverb
     \endentry
     \entry{WebpackDependency}{online}{}
@@ -1032,8 +378,8 @@
       \strng{authornamehash}{3347f0eba478ea077d32b454625cc28d}
       \strng{authorfullhash}{3347f0eba478ea077d32b454625cc28d}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Dependency Graph}
@@ -1049,35 +395,36 @@
       \verb https://webpack.js.org/concepts/dependency-graph
       \endverb
     \endentry
-    \entry{NodeJS}{online}{}
+    \entry{Less}{online}{}
       \name{author}{1}{}{%
-        {{hash=1d5df9c79860df97118593ddf668bdb5}{%
-           family={Semah},
-           familyi={S\bibinitperiod},
-           given={Benjamin},
-           giveni={B\bibinitperiod}}}%
+        {{hash=e2ceeea38f8620383cfbd3e99c5c0cd8}{%
+           family={contributors},
+           familyi={c\bibinitperiod},
+           given={Wikipedia},
+           giveni={W\bibinitperiod}}}%
       }
-      \strng{namehash}{1d5df9c79860df97118593ddf668bdb5}
-      \strng{fullhash}{1d5df9c79860df97118593ddf668bdb5}
-      \strng{bibnamehash}{1d5df9c79860df97118593ddf668bdb5}
-      \strng{authorbibnamehash}{1d5df9c79860df97118593ddf668bdb5}
-      \strng{authornamehash}{1d5df9c79860df97118593ddf668bdb5}
-      \strng{authorfullhash}{1d5df9c79860df97118593ddf668bdb5}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \strng{namehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{fullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{bibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authorbibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authornamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authorfullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \field{extraname}{7}
+      \field{sortinit}{c}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{What Exactly is Node.js?}
-      \field{urlday}{21}
+      \field{title}{Less (style sheet language)}
+      \field{urlday}{14}
       \field{urlmonth}{8}
       \field{urlyear}{2024}
-      \field{year}{2022}
+      \field{year}{2024}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://www.freecodecamp.org/news/what-is-node-js
+      \verb https://en.wikipedia.org/wiki/Less_(style_sheet_language)
       \endverb
       \verb{url}
-      \verb https://www.freecodecamp.org/news/what-is-node-js
+      \verb https://en.wikipedia.org/wiki/Less_(style_sheet_language)
       \endverb
     \endentry
     \entry{NodejsWiki}{online}{}
@@ -1094,9 +441,9 @@
       \strng{authorbibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
       \strng{authornamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
       \strng{authorfullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
-      \field{extraname}{10}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{extraname}{8}
+      \field{sortinit}{c}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Node.js}
@@ -1112,6 +459,523 @@
       \verb https://en.wikipedia.org/wiki/Node.js
       \endverb
     \endentry
+    \entry{Sass}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e2ceeea38f8620383cfbd3e99c5c0cd8}{%
+           family={contributors},
+           familyi={c\bibinitperiod},
+           given={Wikipedia},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{fullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{bibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authorbibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authornamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authorfullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \field{extraname}{9}
+      \field{sortinit}{c}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sass (style sheet language)}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Sass_(style_sheet_language)
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Sass_(style_sheet_language)
+      \endverb
+    \endentry
+    \entry{Webpack}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e2ceeea38f8620383cfbd3e99c5c0cd8}{%
+           family={contributors},
+           familyi={c\bibinitperiod},
+           given={Wikipedia},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{fullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{bibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authorbibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authornamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authorfullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \field{extraname}{10}
+      \field{sortinit}{c}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Webpack}
+      \field{urlday}{18}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Webpack
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Webpack
+      \endverb
+    \endentry
+    \entry{CSSFlexbox}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d33f3a40f4849e0684f177ef73b62f3e}{%
+           family={Coyier},
+           familyi={C\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{d33f3a40f4849e0684f177ef73b62f3e}
+      \strng{fullhash}{d33f3a40f4849e0684f177ef73b62f3e}
+      \strng{bibnamehash}{d33f3a40f4849e0684f177ef73b62f3e}
+      \strng{authorbibnamehash}{d33f3a40f4849e0684f177ef73b62f3e}
+      \strng{authornamehash}{d33f3a40f4849e0684f177ef73b62f3e}
+      \strng{authorfullhash}{d33f3a40f4849e0684f177ef73b62f3e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CSS Flexbox Layout Guide}
+      \field{urlday}{14}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://css-tricks.com/snippets/css/a-guide-to-flexbox
+      \endverb
+      \verb{url}
+      \verb https://css-tricks.com/snippets/css/a-guide-to-flexbox
+      \endverb
+    \endentry
+    \entry{CssModules}{online}{}
+      \name{author}{1}{}{%
+        {{hash=3867b970d122d7b3a15ae4f5c5f9dc50}{%
+           family={css-modules},
+           familyi={c\bibinithyphendelim m\bibinitperiod}}}%
+      }
+      \strng{namehash}{3867b970d122d7b3a15ae4f5c5f9dc50}
+      \strng{fullhash}{3867b970d122d7b3a15ae4f5c5f9dc50}
+      \strng{bibnamehash}{3867b970d122d7b3a15ae4f5c5f9dc50}
+      \strng{authorbibnamehash}{3867b970d122d7b3a15ae4f5c5f9dc50}
+      \strng{authornamehash}{3867b970d122d7b3a15ae4f5c5f9dc50}
+      \strng{authorfullhash}{3867b970d122d7b3a15ae4f5c5f9dc50}
+      \field{sortinit}{c}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CSS Modules}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/css-modules/css-modules
+      \endverb
+      \verb{url}
+      \verb https://github.com/css-modules/css-modules
+      \endverb
+    \endentry
+    \entry{ITDoupe}{online}{}
+      \name{author}{1}{}{%
+        {{hash=38ac0baf3e80194291c9fb5235568c37}{%
+           family={Dlabaja},
+           familyi={D\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{38ac0baf3e80194291c9fb5235568c37}
+      \strng{fullhash}{38ac0baf3e80194291c9fb5235568c37}
+      \strng{bibnamehash}{38ac0baf3e80194291c9fb5235568c37}
+      \strng{authorbibnamehash}{38ac0baf3e80194291c9fb5235568c37}
+      \strng{authornamehash}{38ac0baf3e80194291c9fb5235568c37}
+      \strng{authorfullhash}{38ac0baf3e80194291c9fb5235568c37}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{IT doupě}
+      \field{urlday}{26}
+      \field{urlmonth}{2}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/dlabaja/IT_doupe
+      \endverb
+      \verb{url}
+      \verb https://github.com/dlabaja/IT_doupe
+      \endverb
+    \endentry
+    \entry{WebpackFireship}{online}{}
+      \name{author}{1}{}{%
+        {{hash=62bd5797e7e7ccbf4ce403e62d6b7e49}{%
+           family={Fireship},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{62bd5797e7e7ccbf4ce403e62d6b7e49}
+      \strng{fullhash}{62bd5797e7e7ccbf4ce403e62d6b7e49}
+      \strng{bibnamehash}{62bd5797e7e7ccbf4ce403e62d6b7e49}
+      \strng{authorbibnamehash}{62bd5797e7e7ccbf4ce403e62d6b7e49}
+      \strng{authornamehash}{62bd5797e7e7ccbf4ce403e62d6b7e49}
+      \strng{authorfullhash}{62bd5797e7e7ccbf4ce403e62d6b7e49}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Module Bundlers Explained... Webpack, Rollup, Parcel, and Snowpack}
+      \field{urlday}{2}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=5IG4UmULyoA
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=5IG4UmULyoA
+      \endverb
+    \endentry
+    \entry{ReactDeepDive}{online}{}
+      \name{author}{1}{}{%
+        {{hash=eb936a71d539c7efea999a98af30d713}{%
+           family={FrontStart},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{eb936a71d539c7efea999a98af30d713}
+      \strng{fullhash}{eb936a71d539c7efea999a98af30d713}
+      \strng{bibnamehash}{eb936a71d539c7efea999a98af30d713}
+      \strng{authorbibnamehash}{eb936a71d539c7efea999a98af30d713}
+      \strng{authornamehash}{eb936a71d539c7efea999a98af30d713}
+      \strng{authorfullhash}{eb936a71d539c7efea999a98af30d713}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{How React ACTUALLY works (DEEP DIVE 2023)}
+      \field{urlday}{2}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=za2FZ8QCE18
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=za2FZ8QCE18
+      \endverb
+    \endentry
+    \entry{NetteHowAppsWork}{online}{}
+      \name{author}{1}{}{%
+        {{hash=451533f0ad73bf0566774056bbd08e82}{%
+           family={Grudl},
+           familyi={G\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{451533f0ad73bf0566774056bbd08e82}
+      \strng{fullhash}{451533f0ad73bf0566774056bbd08e82}
+      \strng{bibnamehash}{451533f0ad73bf0566774056bbd08e82}
+      \strng{authorbibnamehash}{451533f0ad73bf0566774056bbd08e82}
+      \strng{authornamehash}{451533f0ad73bf0566774056bbd08e82}
+      \strng{authorfullhash}{451533f0ad73bf0566774056bbd08e82}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{How Do Applications Work?}
+      \field{urlday}{8}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://doc.nette.org/en/application/how-it-works
+      \endverb
+      \verb{url}
+      \verb https://doc.nette.org/en/application/how-it-works
+      \endverb
+    \endentry
+    \entry{JestCoverage}{online}{}
+      \name{author}{1}{}{%
+        {{hash=2a654b575a2b4e8345aae885a9dc5901}{%
+           family={Heider},
+           familyi={H\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{2a654b575a2b4e8345aae885a9dc5901}
+      \strng{fullhash}{2a654b575a2b4e8345aae885a9dc5901}
+      \strng{bibnamehash}{2a654b575a2b4e8345aae885a9dc5901}
+      \strng{authorbibnamehash}{2a654b575a2b4e8345aae885a9dc5901}
+      \strng{authornamehash}{2a654b575a2b4e8345aae885a9dc5901}
+      \strng{authorfullhash}{2a654b575a2b4e8345aae885a9dc5901}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Jest coverage: How can I get a total percentage of coverage?}
+      \field{urlday}{4}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://stackoverflow.com/questions/60967561/jest-coverage-how-can-i-get-a-total-percentage-of-coverage
+      \endverb
+      \verb{url}
+      \verb https://stackoverflow.com/questions/60967561/jest-coverage-how-can-i-get-a-total-percentage-of-coverage
+      \endverb
+    \endentry
+    \entry{Tailwind}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d37590cab97ef9a035c956cd0a068412}{%
+           family={Inc.},
+           familyi={I\bibinitperiod},
+           given={Tailwind\bibnamedelima Labs},
+           giveni={T\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{d37590cab97ef9a035c956cd0a068412}
+      \strng{fullhash}{d37590cab97ef9a035c956cd0a068412}
+      \strng{bibnamehash}{d37590cab97ef9a035c956cd0a068412}
+      \strng{authorbibnamehash}{d37590cab97ef9a035c956cd0a068412}
+      \strng{authornamehash}{d37590cab97ef9a035c956cd0a068412}
+      \strng{authorfullhash}{d37590cab97ef9a035c956cd0a068412}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Tailwind CSS - Rapidly build modern websites without ever leaving your HTML.}
+      \field{urlday}{26}
+      \field{urlmonth}{2}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://tailwindcss.com/
+      \endverb
+      \verb{url}
+      \verb https://tailwindcss.com/
+      \endverb
+    \endentry
+    \entry{JSIntroduction}{online}{}
+      \name{author}{1}{}{%
+        {{hash=5921cc97f07da91d5ea48cbf66955405}{%
+           family={Kantor},
+           familyi={K\bibinitperiod},
+           given={Ilya},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{5921cc97f07da91d5ea48cbf66955405}
+      \strng{fullhash}{5921cc97f07da91d5ea48cbf66955405}
+      \strng{bibnamehash}{5921cc97f07da91d5ea48cbf66955405}
+      \strng{authorbibnamehash}{5921cc97f07da91d5ea48cbf66955405}
+      \strng{authornamehash}{5921cc97f07da91d5ea48cbf66955405}
+      \strng{authorfullhash}{5921cc97f07da91d5ea48cbf66955405}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An Introduction to JavaScript}
+      \field{urlday}{11}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://javascript.info/intro
+      \endverb
+      \verb{url}
+      \verb https://javascript.info/intro
+      \endverb
+    \endentry
+    \entry{WorldeeKovy}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9483ad720e9e5fc33d63b0d6553bcb63}{%
+           family={Kovy},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{9483ad720e9e5fc33d63b0d6553bcb63}
+      \strng{fullhash}{9483ad720e9e5fc33d63b0d6553bcb63}
+      \strng{bibnamehash}{9483ad720e9e5fc33d63b0d6553bcb63}
+      \strng{authorbibnamehash}{9483ad720e9e5fc33d63b0d6553bcb63}
+      \strng{authornamehash}{9483ad720e9e5fc33d63b0d6553bcb63}
+      \strng{authorfullhash}{9483ad720e9e5fc33d63b0d6553bcb63}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ultimátní roadtrip Skotskem! w/Míra | KOVY}
+      \field{urlday}{25}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=66TMsTKaIbE
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=66TMsTKaIbE
+      \endverb
+    \endentry
+    \entry{StateManagementLibs}{online}{}
+      \name{author}{1}{}{%
+        {{hash=66fbf4ace052cec5b3416f8335147103}{%
+           family={Kugell},
+           familyi={K\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{66fbf4ace052cec5b3416f8335147103}
+      \strng{fullhash}{66fbf4ace052cec5b3416f8335147103}
+      \strng{bibnamehash}{66fbf4ace052cec5b3416f8335147103}
+      \strng{authorbibnamehash}{66fbf4ace052cec5b3416f8335147103}
+      \strng{authornamehash}{66fbf4ace052cec5b3416f8335147103}
+      \strng{authorfullhash}{66fbf4ace052cec5b3416f8335147103}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{7 Top React State Management Libraries}
+      \field{urlday}{18}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://trio.dev/7-top-react-state-management-libraries
+      \endverb
+      \verb{url}
+      \verb https://trio.dev/7-top-react-state-management-libraries
+      \endverb
+    \endentry
+    \entry{LocalazyIntegration}{online}{}
+      \name{author}{1}{}{%
+        {{hash=280ff0519010fe61c3d21df2d28451b2}{%
+           family={Localazy},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{280ff0519010fe61c3d21df2d28451b2}
+      \strng{fullhash}{280ff0519010fe61c3d21df2d28451b2}
+      \strng{bibnamehash}{280ff0519010fe61c3d21df2d28451b2}
+      \strng{authorbibnamehash}{280ff0519010fe61c3d21df2d28451b2}
+      \strng{authornamehash}{280ff0519010fe61c3d21df2d28451b2}
+      \strng{authorfullhash}{280ff0519010fe61c3d21df2d28451b2}
+      \field{extraname}{1}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Integrate Localazy}
+      \field{urlday}{7}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://localazy.com/integrations
+      \endverb
+      \verb{url}
+      \verb https://localazy.com/integrations
+      \endverb
+    \endentry
+    \entry{LocalazyPricing}{online}{}
+      \name{author}{1}{}{%
+        {{hash=280ff0519010fe61c3d21df2d28451b2}{%
+           family={Localazy},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{280ff0519010fe61c3d21df2d28451b2}
+      \strng{fullhash}{280ff0519010fe61c3d21df2d28451b2}
+      \strng{bibnamehash}{280ff0519010fe61c3d21df2d28451b2}
+      \strng{authorbibnamehash}{280ff0519010fe61c3d21df2d28451b2}
+      \strng{authornamehash}{280ff0519010fe61c3d21df2d28451b2}
+      \strng{authorfullhash}{280ff0519010fe61c3d21df2d28451b2}
+      \field{extraname}{2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Localization for teams of any size}
+      \field{urlday}{7}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://localazy.com/pricing
+      \endverb
+      \verb{url}
+      \verb https://localazy.com/pricing
+      \endverb
+    \endentry
+    \entry{I18nextVideo}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ccd8a146ad8212237eeac1d4909accff}{%
+           family={locize},
+           familyi={l\bibinitperiod}}}%
+      }
+      \strng{namehash}{ccd8a146ad8212237eeac1d4909accff}
+      \strng{fullhash}{ccd8a146ad8212237eeac1d4909accff}
+      \strng{bibnamehash}{ccd8a146ad8212237eeac1d4909accff}
+      \strng{authorbibnamehash}{ccd8a146ad8212237eeac1d4909accff}
+      \strng{authornamehash}{ccd8a146ad8212237eeac1d4909accff}
+      \strng{authorfullhash}{ccd8a146ad8212237eeac1d4909accff}
+      \field{sortinit}{l}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{i18next Crash Course | the JavaScript i18n framework}
+      \field{urlday}{4}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=SA_9i4TtxLQ
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=SA_9i4TtxLQ
+      \endverb
+    \endentry
+    \entry{WorldeeInvestice}{online}{}
+      \name{author}{1}{}{%
+        {{hash=68e274660ecf859e7588e43466e614b1}{%
+           family={Magalhães},
+           familyi={M\bibinitperiod},
+           given={Filip},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{68e274660ecf859e7588e43466e614b1}
+      \strng{fullhash}{68e274660ecf859e7588e43466e614b1}
+      \strng{bibnamehash}{68e274660ecf859e7588e43466e614b1}
+      \strng{authorbibnamehash}{68e274660ecf859e7588e43466e614b1}
+      \strng{authornamehash}{68e274660ecf859e7588e43466e614b1}
+      \strng{authorfullhash}{68e274660ecf859e7588e43466e614b1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sto milionů pro Worldee. Český cestovatelský startup nakopne nový investor, je jím Smička z Bazoše}
+      \field{urlday}{28}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.hrot24.cz/clanek/sto-milionu-pro-worldee-cestovatelsky-startup-nakopne-novy-investor-je-jim-smicka-z-bazose
+      \endverb
+      \verb{url}
+      \verb https://www.hrot24.cz/clanek/sto-milionu-pro-worldee-cestovatelsky-startup-nakopne-novy-investor-je-jim-smicka-z-bazose
+      \endverb
+    \endentry
     \entry{NextJSDocs}{online}{}
       \name{author}{1}{}{%
         {{hash=e35a0920c89f1a10d6b82508da377cc1}{%
@@ -1125,8 +989,8 @@
       \strng{authornamehash}{e35a0920c89f1a10d6b82508da377cc1}
       \strng{authorfullhash}{e35a0920c89f1a10d6b82508da377cc1}
       \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{n}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Introduction}
@@ -1155,8 +1019,8 @@
       \strng{authornamehash}{e35a0920c89f1a10d6b82508da377cc1}
       \strng{authorfullhash}{e35a0920c89f1a10d6b82508da377cc1}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{n}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Learn Next.js}
@@ -1172,7 +1036,7 @@
       \verb https://nextjs.org/learn
       \endverb
     \endentry
-    \entry{NextJSS&CComponents}{online}{}
+    \entry{NextJSClientComponents}{online}{}
       \name{author}{1}{}{%
         {{hash=e35a0920c89f1a10d6b82508da377cc1}{%
            family={nextjs.org},
@@ -1185,8 +1049,38 @@
       \strng{authornamehash}{e35a0920c89f1a10d6b82508da377cc1}
       \strng{authorfullhash}{e35a0920c89f1a10d6b82508da377cc1}
       \field{extraname}{3}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{n}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Next.js Client Components}
+      \field{urlday}{1}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://nextjs.org/docs/app/building-your-application/rendering/client-components
+      \endverb
+      \verb{url}
+      \verb https://nextjs.org/docs/app/building-your-application/rendering/client-components
+      \endverb
+    \endentry
+    \entry{NextJSS&CComponents}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e35a0920c89f1a10d6b82508da377cc1}{%
+           family={nextjs.org},
+           familyi={n\bibinitperiod}}}%
+      }
+      \strng{namehash}{e35a0920c89f1a10d6b82508da377cc1}
+      \strng{fullhash}{e35a0920c89f1a10d6b82508da377cc1}
+      \strng{bibnamehash}{e35a0920c89f1a10d6b82508da377cc1}
+      \strng{authorbibnamehash}{e35a0920c89f1a10d6b82508da377cc1}
+      \strng{authornamehash}{e35a0920c89f1a10d6b82508da377cc1}
+      \strng{authorfullhash}{e35a0920c89f1a10d6b82508da377cc1}
+      \field{extraname}{4}
+      \field{sortinit}{n}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Next.js Server and client components}
@@ -1214,9 +1108,9 @@
       \strng{authorbibnamehash}{e35a0920c89f1a10d6b82508da377cc1}
       \strng{authornamehash}{e35a0920c89f1a10d6b82508da377cc1}
       \strng{authorfullhash}{e35a0920c89f1a10d6b82508da377cc1}
-      \field{extraname}{4}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{extraname}{5}
+      \field{sortinit}{n}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Next.js Server Components}
@@ -1230,340 +1124,6 @@
       \endverb
       \verb{url}
       \verb https://nextjs.org/docs/app/building-your-application/rendering/server-components
-      \endverb
-    \endentry
-    \entry{NextJSClientComponents}{online}{}
-      \name{author}{1}{}{%
-        {{hash=e35a0920c89f1a10d6b82508da377cc1}{%
-           family={nextjs.org},
-           familyi={n\bibinitperiod}}}%
-      }
-      \strng{namehash}{e35a0920c89f1a10d6b82508da377cc1}
-      \strng{fullhash}{e35a0920c89f1a10d6b82508da377cc1}
-      \strng{bibnamehash}{e35a0920c89f1a10d6b82508da377cc1}
-      \strng{authorbibnamehash}{e35a0920c89f1a10d6b82508da377cc1}
-      \strng{authornamehash}{e35a0920c89f1a10d6b82508da377cc1}
-      \strng{authorfullhash}{e35a0920c89f1a10d6b82508da377cc1}
-      \field{extraname}{5}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Next.js Client Components}
-      \field{urlday}{1}
-      \field{urlmonth}{9}
-      \field{urlyear}{2024}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://nextjs.org/docs/app/building-your-application/rendering/client-components
-      \endverb
-      \verb{url}
-      \verb https://nextjs.org/docs/app/building-your-application/rendering/client-components
-      \endverb
-    \endentry
-    \entry{NextHydration}{online}{}
-      \name{author}{1}{}{%
-        {{hash=466c69abc9555aca1a24af679dbadabb}{%
-           family={Robinson},
-           familyi={R\bibinitperiod},
-           given={Rajae},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{466c69abc9555aca1a24af679dbadabb}
-      \strng{fullhash}{466c69abc9555aca1a24af679dbadabb}
-      \strng{bibnamehash}{466c69abc9555aca1a24af679dbadabb}
-      \strng{authorbibnamehash}{466c69abc9555aca1a24af679dbadabb}
-      \strng{authornamehash}{466c69abc9555aca1a24af679dbadabb}
-      \strng{authorfullhash}{466c69abc9555aca1a24af679dbadabb}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Understanding Hydration in Next.js}
-      \field{urlday}{26}
-      \field{urlmonth}{2}
-      \field{urlyear}{2025}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://dev.to/rajaerobinson/understanding-hydration-in-nextjs-b5m
-      \endverb
-      \verb{url}
-      \verb https://dev.to/rajaerobinson/understanding-hydration-in-nextjs-b5m
-      \endverb
-    \endentry
-    \entry{TypesOfTests}{online}{}
-      \name{author}{1}{}{%
-        {{hash=f7aa6066f95255096672e3a5fc537081}{%
-           family={web.dev},
-           familyi={w\bibinitperiod}}}%
-      }
-      \strng{namehash}{f7aa6066f95255096672e3a5fc537081}
-      \strng{fullhash}{f7aa6066f95255096672e3a5fc537081}
-      \strng{bibnamehash}{f7aa6066f95255096672e3a5fc537081}
-      \strng{authorbibnamehash}{f7aa6066f95255096672e3a5fc537081}
-      \strng{authornamehash}{f7aa6066f95255096672e3a5fc537081}
-      \strng{authorfullhash}{f7aa6066f95255096672e3a5fc537081}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Types of automated testing}
-      \field{urlday}{4}
-      \field{urlmonth}{9}
-      \field{urlyear}{2024}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://web.dev/learn/testing/get-started/test-types
-      \endverb
-      \verb{url}
-      \verb https://web.dev/learn/testing/get-started/test-types
-      \endverb
-    \endentry
-    \entry{JestMethods}{online}{}
-      \name{author}{1}{}{%
-        {{hash=c35bfc5340375f70a1900594cee2ad62}{%
-           family={Sharma},
-           familyi={S\bibinitperiod},
-           given={Pradhumn},
-           giveni={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{c35bfc5340375f70a1900594cee2ad62}
-      \strng{fullhash}{c35bfc5340375f70a1900594cee2ad62}
-      \strng{bibnamehash}{c35bfc5340375f70a1900594cee2ad62}
-      \strng{authorbibnamehash}{c35bfc5340375f70a1900594cee2ad62}
-      \strng{authornamehash}{c35bfc5340375f70a1900594cee2ad62}
-      \strng{authorfullhash}{c35bfc5340375f70a1900594cee2ad62}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{What is the difference between jest.fn() and jest.spyOn() methods in jest?}
-      \field{urlday}{4}
-      \field{urlmonth}{9}
-      \field{urlyear}{2024}
-      \field{year}{2019}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://stackoverflow.com/questions/57643808/what-is-the-difference-between-jest-fn-and-jest-spyon-methods-in-jest
-      \endverb
-      \verb{url}
-      \verb https://stackoverflow.com/questions/57643808/what-is-the-difference-between-jest-fn-and-jest-spyon-methods-in-jest
-      \endverb
-    \endentry
-    \entry{JestCoverage}{online}{}
-      \name{author}{1}{}{%
-        {{hash=2a654b575a2b4e8345aae885a9dc5901}{%
-           family={Heider},
-           familyi={H\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
-      }
-      \strng{namehash}{2a654b575a2b4e8345aae885a9dc5901}
-      \strng{fullhash}{2a654b575a2b4e8345aae885a9dc5901}
-      \strng{bibnamehash}{2a654b575a2b4e8345aae885a9dc5901}
-      \strng{authorbibnamehash}{2a654b575a2b4e8345aae885a9dc5901}
-      \strng{authornamehash}{2a654b575a2b4e8345aae885a9dc5901}
-      \strng{authorfullhash}{2a654b575a2b4e8345aae885a9dc5901}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Jest coverage: How can I get a total percentage of coverage?}
-      \field{urlday}{4}
-      \field{urlmonth}{9}
-      \field{urlyear}{2024}
-      \field{year}{2020}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://stackoverflow.com/questions/60967561/jest-coverage-how-can-i-get-a-total-percentage-of-coverage
-      \endverb
-      \verb{url}
-      \verb https://stackoverflow.com/questions/60967561/jest-coverage-how-can-i-get-a-total-percentage-of-coverage
-      \endverb
-    \endentry
-    \entry{I18nMeaning}{online}{}
-      \name{author}{1}{}{%
-        {{hash=327f987d97eb8ae1314cdde81b69efa8}{%
-           family={Sheldon},
-           familyi={S\bibinitperiod},
-           given={Robert},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{327f987d97eb8ae1314cdde81b69efa8}
-      \strng{fullhash}{327f987d97eb8ae1314cdde81b69efa8}
-      \strng{bibnamehash}{327f987d97eb8ae1314cdde81b69efa8}
-      \strng{authorbibnamehash}{327f987d97eb8ae1314cdde81b69efa8}
-      \strng{authornamehash}{327f987d97eb8ae1314cdde81b69efa8}
-      \strng{authorfullhash}{327f987d97eb8ae1314cdde81b69efa8}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{What is internationalization?}
-      \field{urlday}{25}
-      \field{urlmonth}{11}
-      \field{urlyear}{2024}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.techtarget.com/whatis/definition/internationalization-I18N
-      \endverb
-      \verb{url}
-      \verb https://www.techtarget.com/whatis/definition/internationalization-I18N
-      \endverb
-    \endentry
-    \entry{I18nextDocs}{online}{}
-      \name{author}{1}{}{%
-        {{hash=163c97a36169e9c604e40aa1d1da1241}{%
-           family={team},
-           familyi={t\bibinitperiod},
-           prefix={i18next},
-           prefixi={i\bibinitperiod}}}%
-      }
-      \strng{namehash}{163c97a36169e9c604e40aa1d1da1241}
-      \strng{fullhash}{163c97a36169e9c604e40aa1d1da1241}
-      \strng{bibnamehash}{163c97a36169e9c604e40aa1d1da1241}
-      \strng{authorbibnamehash}{163c97a36169e9c604e40aa1d1da1241}
-      \strng{authornamehash}{163c97a36169e9c604e40aa1d1da1241}
-      \strng{authorfullhash}{163c97a36169e9c604e40aa1d1da1241}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Introduction}
-      \field{urlday}{4}
-      \field{urlmonth}{9}
-      \field{urlyear}{2024}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.i18next.com
-      \endverb
-      \verb{url}
-      \verb https://www.i18next.com
-      \endverb
-    \endentry
-    \entry{I18nextVideo}{online}{}
-      \name{author}{1}{}{%
-        {{hash=ccd8a146ad8212237eeac1d4909accff}{%
-           family={locize},
-           familyi={l\bibinitperiod}}}%
-      }
-      \strng{namehash}{ccd8a146ad8212237eeac1d4909accff}
-      \strng{fullhash}{ccd8a146ad8212237eeac1d4909accff}
-      \strng{bibnamehash}{ccd8a146ad8212237eeac1d4909accff}
-      \strng{authorbibnamehash}{ccd8a146ad8212237eeac1d4909accff}
-      \strng{authornamehash}{ccd8a146ad8212237eeac1d4909accff}
-      \strng{authorfullhash}{ccd8a146ad8212237eeac1d4909accff}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{i18next Crash Course | the JavaScript i18n framework}
-      \field{urlday}{4}
-      \field{urlmonth}{9}
-      \field{urlyear}{2024}
-      \field{year}{2022}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.youtube.com/watch?v=SA_9i4TtxLQ
-      \endverb
-      \verb{url}
-      \verb https://www.youtube.com/watch?v=SA_9i4TtxLQ
-      \endverb
-    \endentry
-    \entry{LocalazyPricing}{online}{}
-      \name{author}{1}{}{%
-        {{hash=280ff0519010fe61c3d21df2d28451b2}{%
-           family={Localazy},
-           familyi={L\bibinitperiod}}}%
-      }
-      \strng{namehash}{280ff0519010fe61c3d21df2d28451b2}
-      \strng{fullhash}{280ff0519010fe61c3d21df2d28451b2}
-      \strng{bibnamehash}{280ff0519010fe61c3d21df2d28451b2}
-      \strng{authorbibnamehash}{280ff0519010fe61c3d21df2d28451b2}
-      \strng{authornamehash}{280ff0519010fe61c3d21df2d28451b2}
-      \strng{authorfullhash}{280ff0519010fe61c3d21df2d28451b2}
-      \field{extraname}{1}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Localization for teams of any size}
-      \field{urlday}{7}
-      \field{urlmonth}{9}
-      \field{urlyear}{2024}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://localazy.com/pricing
-      \endverb
-      \verb{url}
-      \verb https://localazy.com/pricing
-      \endverb
-    \endentry
-    \entry{LocalazyIntegration}{online}{}
-      \name{author}{1}{}{%
-        {{hash=280ff0519010fe61c3d21df2d28451b2}{%
-           family={Localazy},
-           familyi={L\bibinitperiod}}}%
-      }
-      \strng{namehash}{280ff0519010fe61c3d21df2d28451b2}
-      \strng{fullhash}{280ff0519010fe61c3d21df2d28451b2}
-      \strng{bibnamehash}{280ff0519010fe61c3d21df2d28451b2}
-      \strng{authorbibnamehash}{280ff0519010fe61c3d21df2d28451b2}
-      \strng{authornamehash}{280ff0519010fe61c3d21df2d28451b2}
-      \strng{authorfullhash}{280ff0519010fe61c3d21df2d28451b2}
-      \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Integrate Localazy}
-      \field{urlday}{7}
-      \field{urlmonth}{9}
-      \field{urlyear}{2024}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://localazy.com/integrations
-      \endverb
-      \verb{url}
-      \verb https://localazy.com/integrations
-      \endverb
-    \endentry
-    \entry{NetteHowAppsWork}{online}{}
-      \name{author}{1}{}{%
-        {{hash=451533f0ad73bf0566774056bbd08e82}{%
-           family={Grudl},
-           familyi={G\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{451533f0ad73bf0566774056bbd08e82}
-      \strng{fullhash}{451533f0ad73bf0566774056bbd08e82}
-      \strng{bibnamehash}{451533f0ad73bf0566774056bbd08e82}
-      \strng{authorbibnamehash}{451533f0ad73bf0566774056bbd08e82}
-      \strng{authornamehash}{451533f0ad73bf0566774056bbd08e82}
-      \strng{authorfullhash}{451533f0ad73bf0566774056bbd08e82}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{How Do Applications Work?}
-      \field{urlday}{8}
-      \field{urlmonth}{9}
-      \field{urlyear}{2024}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://doc.nette.org/en/application/how-it-works
-      \endverb
-      \verb{url}
-      \verb https://doc.nette.org/en/application/how-it-works
       \endverb
     \endentry
     \entry{Elektronka}{online}{}
@@ -1580,8 +1140,8 @@
       \strng{authorbibnamehash}{3d4e6f5365dff5355d2e378e28b62590}
       \strng{authornamehash}{3d4e6f5365dff5355d2e378e28b62590}
       \strng{authorfullhash}{3d4e6f5365dff5355d2e378e28b62590}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Elektronka Online}
@@ -1597,36 +1157,460 @@
       \verb https://www.spseol.cz/prace-zaku-a-studentu/casopis-elektronka
       \endverb
     \endentry
-    \entry{ITDoupe}{online}{}
+    \entry{ReactState}{online}{}
       \name{author}{1}{}{%
-        {{hash=38ac0baf3e80194291c9fb5235568c37}{%
-           family={Dlabaja},
-           familyi={D\bibinitperiod},
-           given={Jan},
-           giveni={J\bibinitperiod}}}%
+        {{hash=e71eece042c4952d1a9043e51336caf7}{%
+           family={{React team and external contributors}},
+           familyi={R\bibinitperiod}}}%
       }
-      \strng{namehash}{38ac0baf3e80194291c9fb5235568c37}
-      \strng{fullhash}{38ac0baf3e80194291c9fb5235568c37}
-      \strng{bibnamehash}{38ac0baf3e80194291c9fb5235568c37}
-      \strng{authorbibnamehash}{38ac0baf3e80194291c9fb5235568c37}
-      \strng{authornamehash}{38ac0baf3e80194291c9fb5235568c37}
-      \strng{authorfullhash}{38ac0baf3e80194291c9fb5235568c37}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \strng{namehash}{e71eece042c4952d1a9043e51336caf7}
+      \strng{fullhash}{e71eece042c4952d1a9043e51336caf7}
+      \strng{bibnamehash}{e71eece042c4952d1a9043e51336caf7}
+      \strng{authorbibnamehash}{e71eece042c4952d1a9043e51336caf7}
+      \strng{authornamehash}{e71eece042c4952d1a9043e51336caf7}
+      \strng{authorfullhash}{e71eece042c4952d1a9043e51336caf7}
+      \field{extraname}{1}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{IT doupě}
+      \field{title}{State: A Component's Memory – React}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://react.dev/learn/state-a-components-memory
+      \endverb
+      \verb{url}
+      \verb https://react.dev/learn/state-a-components-memory
+      \endverb
+    \endentry
+    \entry{UseRef}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e71eece042c4952d1a9043e51336caf7}{%
+           family={{React team and external contributors}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{e71eece042c4952d1a9043e51336caf7}
+      \strng{fullhash}{e71eece042c4952d1a9043e51336caf7}
+      \strng{bibnamehash}{e71eece042c4952d1a9043e51336caf7}
+      \strng{authorbibnamehash}{e71eece042c4952d1a9043e51336caf7}
+      \strng{authornamehash}{e71eece042c4952d1a9043e51336caf7}
+      \strng{authorfullhash}{e71eece042c4952d1a9043e51336caf7}
+      \field{extraname}{2}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{useRef – React}
+      \field{urlday}{14}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://react.dev/reference/react/useRef
+      \endverb
+      \verb{url}
+      \verb https://react.dev/reference/react/useRef
+      \endverb
+    \endentry
+    \entry{NextHydration}{online}{}
+      \name{author}{1}{}{%
+        {{hash=466c69abc9555aca1a24af679dbadabb}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={Rajae},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{466c69abc9555aca1a24af679dbadabb}
+      \strng{fullhash}{466c69abc9555aca1a24af679dbadabb}
+      \strng{bibnamehash}{466c69abc9555aca1a24af679dbadabb}
+      \strng{authorbibnamehash}{466c69abc9555aca1a24af679dbadabb}
+      \strng{authornamehash}{466c69abc9555aca1a24af679dbadabb}
+      \strng{authorfullhash}{466c69abc9555aca1a24af679dbadabb}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Understanding Hydration in Next.js}
       \field{urlday}{26}
       \field{urlmonth}{2}
       \field{urlyear}{2025}
-      \field{year}{2025}
+      \field{year}{2024}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://github.com/dlabaja/IT_doupe
+      \verb https://dev.to/rajaerobinson/understanding-hydration-in-nextjs-b5m
       \endverb
       \verb{url}
-      \verb https://github.com/dlabaja/IT_doupe
+      \verb https://dev.to/rajaerobinson/understanding-hydration-in-nextjs-b5m
       \endverb
+    \endentry
+    \entry{Worldee}{online}{}
+      \name{author}{1}{}{%
+        {{hash=318568a2ebf898e0bc5363ff5c2ab95c}{%
+           family={s.r.o.},
+           familyi={s\bibinitperiod},
+           given={We},
+           giveni={W\bibinitperiod},
+           prefix={travel\bibnamedelimb the\bibnamedelima world},
+           prefixi={t\bibinitperiod\bibinitdelim t\bibinitperiod\bibinitdelim w\bibinitperiod}}}%
+      }
+      \strng{namehash}{318568a2ebf898e0bc5363ff5c2ab95c}
+      \strng{fullhash}{318568a2ebf898e0bc5363ff5c2ab95c}
+      \strng{bibnamehash}{318568a2ebf898e0bc5363ff5c2ab95c}
+      \strng{authorbibnamehash}{318568a2ebf898e0bc5363ff5c2ab95c}
+      \strng{authornamehash}{318568a2ebf898e0bc5363ff5c2ab95c}
+      \strng{authorfullhash}{318568a2ebf898e0bc5363ff5c2ab95c}
+      \field{sortinit}{s}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Vyber si svůj způsob cestování}
+      \field{urlday}{25}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.worldee.com
+      \endverb
+      \verb{url}
+      \verb https://www.worldee.com
+      \endverb
+    \endentry
+    \entry{JSX}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ad34a9d5d87691c743dc42cbc5e8b783}{%
+           family={Sanity},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ad34a9d5d87691c743dc42cbc5e8b783}
+      \strng{fullhash}{ad34a9d5d87691c743dc42cbc5e8b783}
+      \strng{bibnamehash}{ad34a9d5d87691c743dc42cbc5e8b783}
+      \strng{authorbibnamehash}{ad34a9d5d87691c743dc42cbc5e8b783}
+      \strng{authornamehash}{ad34a9d5d87691c743dc42cbc5e8b783}
+      \strng{authorfullhash}{ad34a9d5d87691c743dc42cbc5e8b783}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{JSX definition}
+      \field{urlday}{4}
+      \field{urlmonth}{10}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.sanity.io/glossary/jsx
+      \endverb
+      \verb{url}
+      \verb https://www.sanity.io/glossary/jsx
+      \endverb
+    \endentry
+    \entry{NodeJS}{online}{}
+      \name{author}{1}{}{%
+        {{hash=1d5df9c79860df97118593ddf668bdb5}{%
+           family={Semah},
+           familyi={S\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{1d5df9c79860df97118593ddf668bdb5}
+      \strng{fullhash}{1d5df9c79860df97118593ddf668bdb5}
+      \strng{bibnamehash}{1d5df9c79860df97118593ddf668bdb5}
+      \strng{authorbibnamehash}{1d5df9c79860df97118593ddf668bdb5}
+      \strng{authornamehash}{1d5df9c79860df97118593ddf668bdb5}
+      \strng{authorfullhash}{1d5df9c79860df97118593ddf668bdb5}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What Exactly is Node.js?}
+      \field{urlday}{21}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.freecodecamp.org/news/what-is-node-js
+      \endverb
+      \verb{url}
+      \verb https://www.freecodecamp.org/news/what-is-node-js
+      \endverb
+    \endentry
+    \entry{JestMethods}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c35bfc5340375f70a1900594cee2ad62}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Pradhumn},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{c35bfc5340375f70a1900594cee2ad62}
+      \strng{fullhash}{c35bfc5340375f70a1900594cee2ad62}
+      \strng{bibnamehash}{c35bfc5340375f70a1900594cee2ad62}
+      \strng{authorbibnamehash}{c35bfc5340375f70a1900594cee2ad62}
+      \strng{authornamehash}{c35bfc5340375f70a1900594cee2ad62}
+      \strng{authorfullhash}{c35bfc5340375f70a1900594cee2ad62}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is the difference between jest.fn() and jest.spyOn() methods in jest?}
+      \field{urlday}{4}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://stackoverflow.com/questions/57643808/what-is-the-difference-between-jest-fn-and-jest-spyon-methods-in-jest
+      \endverb
+      \verb{url}
+      \verb https://stackoverflow.com/questions/57643808/what-is-the-difference-between-jest-fn-and-jest-spyon-methods-in-jest
+      \endverb
+    \endentry
+    \entry{I18nMeaning}{online}{}
+      \name{author}{1}{}{%
+        {{hash=327f987d97eb8ae1314cdde81b69efa8}{%
+           family={Sheldon},
+           familyi={S\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{327f987d97eb8ae1314cdde81b69efa8}
+      \strng{fullhash}{327f987d97eb8ae1314cdde81b69efa8}
+      \strng{bibnamehash}{327f987d97eb8ae1314cdde81b69efa8}
+      \strng{authorbibnamehash}{327f987d97eb8ae1314cdde81b69efa8}
+      \strng{authornamehash}{327f987d97eb8ae1314cdde81b69efa8}
+      \strng{authorfullhash}{327f987d97eb8ae1314cdde81b69efa8}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is internationalization?}
+      \field{urlday}{25}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.techtarget.com/whatis/definition/internationalization-I18N
+      \endverb
+      \verb{url}
+      \verb https://www.techtarget.com/whatis/definition/internationalization-I18N
+      \endverb
+    \endentry
+    \entry{WebpackFounder}{online}{}
+      \name{author}{1}{}{%
+        {{hash=4cf715b1987a8f0a93d9b720b5cfac0b}{%
+           family={Talks},
+           familyi={T\bibinitperiod},
+           given={Web\bibnamedelima Tech},
+           giveni={W\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{4cf715b1987a8f0a93d9b720b5cfac0b}
+      \strng{fullhash}{4cf715b1987a8f0a93d9b720b5cfac0b}
+      \strng{bibnamehash}{4cf715b1987a8f0a93d9b720b5cfac0b}
+      \strng{authorbibnamehash}{4cf715b1987a8f0a93d9b720b5cfac0b}
+      \strng{authornamehash}{4cf715b1987a8f0a93d9b720b5cfac0b}
+      \strng{authorfullhash}{4cf715b1987a8f0a93d9b720b5cfac0b}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Webpack founder Tobias Koppers demos bundling live by hand}
+      \field{urlday}{18}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=UNMkLHzofQI
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=UNMkLHzofQI
+      \endverb
+    \endentry
+    \entry{I18nextDocs}{online}{}
+      \name{author}{1}{}{%
+        {{hash=163c97a36169e9c604e40aa1d1da1241}{%
+           family={team},
+           familyi={t\bibinitperiod},
+           prefix={i18next},
+           prefixi={i\bibinitperiod}}}%
+      }
+      \strng{namehash}{163c97a36169e9c604e40aa1d1da1241}
+      \strng{fullhash}{163c97a36169e9c604e40aa1d1da1241}
+      \strng{bibnamehash}{163c97a36169e9c604e40aa1d1da1241}
+      \strng{authorbibnamehash}{163c97a36169e9c604e40aa1d1da1241}
+      \strng{authornamehash}{163c97a36169e9c604e40aa1d1da1241}
+      \strng{authorfullhash}{163c97a36169e9c604e40aa1d1da1241}
+      \field{sortinit}{t}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction}
+      \field{urlday}{4}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.i18next.com
+      \endverb
+      \verb{url}
+      \verb https://www.i18next.com
+      \endverb
+    \endentry
+    \entry{VirtualDOM}{online}{}
+      \name{author}{1}{}{%
+        {{hash=169789707093f80ce5d05a98e773f7a8}{%
+           family={tv},
+           familyi={t\bibinitperiod},
+           given={PurelyFunctional},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{169789707093f80ce5d05a98e773f7a8}
+      \strng{fullhash}{169789707093f80ce5d05a98e773f7a8}
+      \strng{bibnamehash}{169789707093f80ce5d05a98e773f7a8}
+      \strng{authorbibnamehash}{169789707093f80ce5d05a98e773f7a8}
+      \strng{authornamehash}{169789707093f80ce5d05a98e773f7a8}
+      \strng{authorfullhash}{169789707093f80ce5d05a98e773f7a8}
+      \field{sortinit}{t}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{React and the Virtual DOM}
+      \field{urlday}{2}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=BYbgopx44vo
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=BYbgopx44vo
+      \endverb
+    \endentry
+    \entry{TypesOfTests}{online}{}
+      \name{author}{1}{}{%
+        {{hash=f7aa6066f95255096672e3a5fc537081}{%
+           family={web.dev},
+           familyi={w\bibinitperiod}}}%
+      }
+      \strng{namehash}{f7aa6066f95255096672e3a5fc537081}
+      \strng{fullhash}{f7aa6066f95255096672e3a5fc537081}
+      \strng{bibnamehash}{f7aa6066f95255096672e3a5fc537081}
+      \strng{authorbibnamehash}{f7aa6066f95255096672e3a5fc537081}
+      \strng{authornamehash}{f7aa6066f95255096672e3a5fc537081}
+      \strng{authorfullhash}{f7aa6066f95255096672e3a5fc537081}
+      \field{sortinit}{w}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Types of automated testing}
+      \field{urlday}{4}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://web.dev/learn/testing/get-started/test-types
+      \endverb
+      \verb{url}
+      \verb https://web.dev/learn/testing/get-started/test-types
+      \endverb
+    \endentry
+    \entry{WhatIsAPI}{online}{}
+      \name{author}{1}{}{%
+        {{hash=b17fe2a363178a377427700a371da1d3}{%
+           family={Writers},
+           familyi={W\bibinitperiod},
+           given={ByteScout\bibnamedelima Team},
+           giveni={B\bibinitperiod\bibinitdelim T\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+      }
+      \strng{namehash}{b17fe2a363178a377427700a371da1d3}
+      \strng{fullhash}{b17fe2a363178a377427700a371da1d3}
+      \strng{bibnamehash}{b17fe2a363178a377427700a371da1d3}
+      \strng{authorbibnamehash}{b17fe2a363178a377427700a371da1d3}
+      \strng{authornamehash}{b17fe2a363178a377427700a371da1d3}
+      \strng{authorfullhash}{b17fe2a363178a377427700a371da1d3}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is API and why it exists?}
+      \field{urlday}{21}
+      \field{urlmonth}{8}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://bytescout.com/blog/2019/03/what-is-api-and-why-it-exists.html
+      \endverb
+      \verb{url}
+      \verb https://bytescout.com/blog/2019/03/what-is-api-and-why-it-exists.html
+      \endverb
+    \endentry
+    \entry{JSOrigins}{online}{}
+      \name{author}{1}{}{%
+        {{hash=83513a1e07266e31ff307edeaa58b921}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={Sullivan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{83513a1e07266e31ff307edeaa58b921}
+      \strng{fullhash}{83513a1e07266e31ff307edeaa58b921}
+      \strng{bibnamehash}{83513a1e07266e31ff307edeaa58b921}
+      \strng{authorbibnamehash}{83513a1e07266e31ff307edeaa58b921}
+      \strng{authornamehash}{83513a1e07266e31ff307edeaa58b921}
+      \strng{authorfullhash}{83513a1e07266e31ff307edeaa58b921}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What really is JavaScript? (Origins and The Basics)}
+      \field{urlday}{28}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://medium.com/@sullivanyoung/what-really-is-javascript-origins-and-the-basics-1b4914f355ed
+      \endverb
+      \verb{url}
+      \verb https://medium.com/@sullivanyoung/what-really-is-javascript-origins-and-the-basics-1b4914f355ed
+      \endverb
+    \endentry
+    \entry{WorldeeInfo}{online}{}
+      \name{author}{1}{}{%
+        {{hash=59a38640e46d5da6893ba6f65d275e63}{%
+           family={Zapletal},
+           familyi={Z\bibinitperiod},
+           given={Tomáš},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{59a38640e46d5da6893ba6f65d275e63}
+      \strng{fullhash}{59a38640e46d5da6893ba6f65d275e63}
+      \strng{bibnamehash}{59a38640e46d5da6893ba6f65d275e63}
+      \strng{authorbibnamehash}{59a38640e46d5da6893ba6f65d275e63}
+      \strng{authornamehash}{59a38640e46d5da6893ba6f65d275e63}
+      \strng{authorfullhash}{59a38640e46d5da6893ba6f65d275e63}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Internal source, ClickUp}
+      \field{note}{Unpublished}
+      \field{title}{Toto je Worldee}
+      \field{year}{2024}
     \endentry
   \enddatalist
 \endrefsection
